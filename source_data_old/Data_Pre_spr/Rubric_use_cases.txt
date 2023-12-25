@@ -1,0 +1,11 @@
+## Grading rubric for the Use cases:
+3 marks if All use cases satisfy these criteria:
+2 marks if Most use cases satisfy these criteria:
+1 marks if Few use cases satisfy these criteria:
+0 No use cases satisfy these criteria:
+
+Criteria for Grading rubric for the Use cases:
+1. Clearly named. The name is specific, unique and unambiguous.
+2. Accurate. The name does not include a persona, benefit, outcome or JTBD
+3. Current state. Represents a scenario that exists currently without your product.
+4. Distinct. There are clear, distinctive differences between each use case

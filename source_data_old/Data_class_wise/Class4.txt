@@ -1,0 +1,185 @@
+Class 4
+
+The 9 elements of the problem space:
+
+Actor
+
+Job To Be Done
+
+Use Case
+
+Actual Outcomes
+
+Desired Outcomes
+
+Problem gap
+
+Causes
+
+Problem Size
+
+Opportunity Size
+
+The 9 elements of the problem space help create a well-defined problem. You don't want to miss any ingredient
+
+**Magnitude is the size and extent of a problem**
+
+The magnitude helps us to:
+• evaluate if it is worthwhile to solve
+• prioritize multiple problems to solve
+• conceive, design, validate a solution
+• communicate the value of our solution
+
+**Problem size**
+
+The amount, severity and/or frequency of the problem
+
+The **Problem Size:** consists of:
+
+**1. Amount** – Gap between the actual and desired outcome ****2. Severity** – the seriousness of the problem on the actor. **3. Frequency of occurrence** – the number of times or rate that a problem occurs per some unit of measure (such as a time period.) **4. Probability** – the likelihood the problem will occur in a time period. **5. Growth Rate** – the rate that the problem is changing.
+
+**Annualizing** 
+
+Consistency is key when working with problem sizes. Numbers should be in terms of annualized figures, which makes it easier to compare and analyze problems on the same basis. While annualizing is a helpful practice, it's not a strict requirement. For example, if you have data like 10 logins per day, you can easily convert it to 3,650 logins per year, unless you specifically want to consider business days and adjust the number accordingly. The goal is to have a standardized basis for problem size comparison.
+
+When calculating the **“frequency” to size a problem think of** How often does the problem occur? 1. the number of occurrences 2. the rate that a problem occurs (% or ratio) Always use a unit of measure such as: • Time period (per day, per week, per year, etc.) • Occurrence (per trip, per visit, per kilometer, etc.)
+
+to assess whether the problem's frequency or size is increasing or decreasing over time. A problem becoming more prevalent makes it more attractive to solve, while a declining problem becomes less appealing.
+
+If a problem occurs 75% of the time you drive to work, it's a frequent issue that demands attention. In terms of severity, you might also measure the number of defects per 1,000 lines of code, which is common in software development.
+
+Furthermore, you can use probability as a gauge. For instance, let's take the example of a car accident. Even though a car accident can have severe consequences like injury or death, it doesn't happen very often. This low probability plays a significant role in problem sizing. Problems with a high probability of occurrence are generally more critical and challenging to solve compared to those with a low probability of happening.
+
+**Using “severity” to size a problem you can classify it into** 
+
+1. very high
+2. high
+3. medium
+4. low or minor
+5. very low or none
+
+**Using “probability” to size a problem:** Probability is the likelihood the problem will occur. A worthwhile problem to solve could occur randomly. • Car accidents • Disease • Security breach • Identity theft
+
+**The problem sizes can help you to prioritize problems to solve. Your Actor has multiple desired outcomes. There can be gaps with multiple outcomes. You could compare and select**
+
+When calculating problem sizes for the entire world, you are essentially estimating the total potential market. It's crucial to ensure that your estimates align with your chosen definition of the actors. For example, if you've defined your actor as a college teacher, your problem size estimate should reflect the number of college teachers worldwide who are affected by the problem you're addressing. Problem sizing is also related to the TAM - total addressable market, which represents what you can realistically access or serve.
+
+And measurement is simply how we calculate or obtain the value for that metric.
+
+**Opportunity Size**: refers to the total number of individuals or potential customers who are currently experiencing the identified problem. In some contexts, you might come across the term "market size," but to avoid any confusion, we specifically use "opportunity size" to denote the number of people affected by the problem. This distinction helps clarify its purpose in understanding the scope and potential for solving the problem.
+
+here are a few avenues to explore when gathering data and insights:
+
+1. **Research from Credible Sources**: You can begin by conducting a Google search to uncover research from reputable sources. Such sources often provide estimates that can help you determine the problem size and opportunity size. Google Trends can also be helpful.
+2. **Leveraging Your Own Experience**: Drawing from your personal experience and observations is another valuable approach. While this may introduce some bias due to your limited perspective, it's acceptable for the purpose of this course. We are not aiming for pinpoint accuracy, nor are we planning multi-million-dollar product investments. Instead, the focus is on understanding the concepts and their practical application. Feel free to use your experience to estimate a number or range, or even consider yourself as a data point.
+3. **Documentation and Assumptions**: In your idea workbook, it's essential to document how you arrived at your calculations and what assumptions underpin your estimates. This transparency ensures that your process is clear and reproducible.
+4. **Iterative Learning**: It's entirely acceptable to make educated guesses when you're starting out. The worst-case scenario is that you'll initially rely on approximations. The key is to observe how these numbers play out and understand why it's vital to gain more confidence in your estimates. Some aspects may be more qualitative in nature, but the goal is to encourage you to consider various outcomes.
+5. **Prioritization**: As you gather data and define problem sizes, you'll need to prioritize which issues to address first, second, and so on. This step is crucial in determining the sequence of tackling problems effectively.
+
+Remember, this process is a learning opportunity to grasp the concepts and their practical application. It's about building your skills and understanding, not striving for perfection from the outset.
+
+**Opportunity sizes that are Not obviously quantifiable**
+
+In some instances, it might be challenging to find a precise number. Take, for example, a scenario like the one faced by a student in the class who was dealing with fitness enthusiasts. This can be a complex group to quantify since individuals don't typically wear a label proclaiming their fitness enthusiasm. Thus, determining the opportunity size may require creative strategies, but at its core, it's simply about estimating the number of people who match the characteristics of your actor.
+
+**Complex outcomes and gaps**
+
+When dealing with multiple desired outcomes, you might identify various gaps. This diversity can serve as a basis for prioritizing which problems to address. You can create plots that compare frequency versus the amount, or severity versus frequency, or any combination that you find relevant. Experimenting with these combinations can yield valuable insights.
+
+In this course, the primary focus is on solving one problem initially. However, in an organizational setting, you would typically gather input from various stakeholders. This might involve collecting opinions from multiple individuals, identifying outliers in the group, and reaching a consensus on which problems to prioritize. Gathering customer input is even more beneficial, and having substantial data from many customers can further enhance decision-making. Building confidence in your problem-sizing numbers can be achieved through these various approaches.
+
+### Causes
+
+Identifying the causes of a problem is crucial because you must address these underlying factors, not just the visible symptoms, to effectively close the gap between actual and desired outcomes.
+
+Categorize causes into two main concepts:
+
+**1. Root Causes:** These are the fundamental, underlying reasons why the problem exists in the first place. Eliminating root causes is the most effective way to eliminate the problem entirely.
+
+**2. Contributing Causes:** These causes play a role in creating the problem but are not solely responsible for it. While they may not be sufficient to cause the problem on their own, they can contribute to increasing the magnitude of the problem, including its amount, severity, frequency, or probability.
+
+Traditionally, we're often taught to find the root cause, and that's a valid approach. However, in some cases, you might discover root causes so early in the chain that addressing them directly isn't feasible. In such situations, you can focus on reducing or mitigating some of the other contributing causes, which can still lead to a significant improvement in the problem. The key is to take a systematic and strategic approach to tackle all causes effectively.
+
+he "5 Whys" technique is a valuable approach to get to the root of a problem. The idea is simple: you keep asking "why" multiple times to uncover deeper layers of causality until you reach the fundamental issue. This technique is a helpful tool for those who already possess analytical skills and can be instrumental in gaining a comprehensive understanding of the problem. Identifying the root cause is a crucial step in the product development process, ensuring that you are addressing the correct problem before diving into solutions.
+
+These causes can lead to surface-level solutions. For instance, if you're trying to improve low scores on homework assignments and stop at a contributing cause without addressing the root cause, you won't completely close the gap between actual and desired outcomes.
+
+There are numerous techniques available for identifying the causes of a problem. These techniques include:
+
+1. **Judgment**: Relying on expert judgment and experience to identify potential causes.
+2. **5 Whys**: A method of repeatedly asking "why" to get to the root cause of a problem.
+3. **Regression Analysis**: Using statistical analysis to understand the relationships between variables and identify causes.
+4. **Randomized Controlled Trials**: A method often used in the pharmaceutical industry to study the effects of interventions.
+5. **Propensity Score Analysis**: A statistical technique to reduce bias when estimating causal effects from observational data.
+6. **Causal Inference**: Employing various methods to infer causality from observed data.
+7. **Ishikawa Fishbone Diagram (Cause and Effect Diagram)**: A visual tool for identifying potential causes and their relationships.
+8. **Fault Tree Analysis (FTA)**: A method for analyzing the causes of failures in complex systems.
+9. **Failure Mode Effects Analysis (FMEA)**: A structured approach to identifying and addressing potential failure modes.
+10. **Pareto Analysis**: Focusing on the most significant causes by prioritizing them based on their impact.
+
+These are just a few examples, and there are many more techniques available to suit different types of problems and industries. The choice of technique often depends on the specific context and nature of the problem you are trying to solve.
+
+**Problem solving isn’t linear**
+
+Problem-solving processes aren't always linear; they can involve loops, branches, and various complexities. While we may not need to delve into intricate levels of sophistication, it's indeed helpful to identify the steps involved and thoroughly examine each one. Within each step, you can analyze both the desired and actual outcomes and pinpoint where the shortfall occurs. This deviation between desired and actual outcomes at specific steps can serve as the cause of the problem, ultimately affecting the overall job or task. By breaking down the problem into these step-by-step components, you can gain a more precise understanding of the issues and the areas where interventions may be needed to bridge the gap between the expected and actual results.
+
+**Task Analysis** involves a detailed examination of the tasks or processes required to complete a Job To Be Done (JTBD). It's often referred to as customer journey analysis, business process analysis, customer experience analysis, or value stream analysis.
+
+**Information Analysis** focuses on the information that customers use, how it's utilized, how it's generated, and its sources.
+
+**Object Analysis** centers around the devices, equipment, machines, or other physical objects that customers use in the course of their JTBD.
+
+Typical causes of "Object" problems can be categorized as follows:
+
+- **Interface**: This encompasses the human-to-object and object-to-object connections with other devices or systems, ensuring that interactions are seamless and efficient.
+- **Environment**: Factors like temperature, climate, and available space can significantly impact the object's performance and functionality.
+- **Performance**: This pertains to aspects such as the speed and reliability of the object, ensuring it meets the user's expectations.
+- **Ergonomics**: This involves considerations of the object's size, shape, weight, physical characteristics, form, and fit. It also takes into account the skills required to operate the object effectively.
+- **Operations**: Examining how the object is set up, used, controlled (on and off), and monitored in the context of the JTBD.
+- **Maintainability and Serviceability**: This involves assessing the object's capacity for repair, diagnosis of issues, and replacement of parts, as well as its overall longevity.
+- **Data**: Collecting and analyzing data related to the object's use, environmental conditions, and other pertinent information. This data can provide insights into how the object performs and how it can be improved.
+
+### P**roblem Communication Hierarchy**
+
+Effective communication of a problem is essential for understanding and finding innovative solutions. To achieve this, we use a three-tiered approach:
+
+1. **Problem Category**: At the top level, we have the "problem category." This is a concise label that identifies the general type or class of problem.
+2. **Problem Statement**: The second tier delves into a more specific "problem type." It provides a bit more detail than the category but remains relatively high-level.
+3. **Problem Narrative**: The most detailed tier is the "problem narrative." This is where you can elaborate on the problem, providing a comprehensive understanding of its nuances and complexities.
+
+### Problem Category
+
+**Problem Category** is a concise label that defines a specific type or class of problem. Our brains naturally categorize things to aid understanding and recognition of differences. In the complex world of problem-solving, using problem categories helps in effective communication. While "Problem category" is not a widely used business term, the concept itself is frequently employed. You have the flexibility to choose the words that best fit your specific situation. A helpful tip, although not a strict rule, is to keep the category label short, typically within 2 to 4 words.
+
+**Example Problem Categories**:
+
+- Student Engagement
+- Customer Experience
+- Ride Sharing
+- Car Safety
+- Eyeglass Fitting
+- Application Deployment
+- Time Management
+- Video Streaming
+
+This approach is a practical way to provide a quick orientation to the problem you are addressing. When discussing your work, using a concise problem category helps people immediately grasp the general area of concern. While it may lack depth, it serves as an effective starting point for communication. Often, asking someone what problem they are solving results in lengthy and unclear responses. Using a couple of words, like "car safety problem," can instantly provide clarity and understanding, especially in brief conversations.
+
+### Problem Statement
+
+A problem statement is a concise and compelling description of the customer's issue that needs to be addressed. It must be clear, factual, and include all nine essential elements of the problem:
+
+What is the Problem? (gap; actual outcomes, desired outcomes; cause(s), actor; JTBD; a use case, problem size; opportunity size)
+
+1. **What is the Problem?** This involves identifying the gap, desired outcomes, and the cause(s) of the issue.
+2. **What is the Context in which it occurs?** This encompasses the actor or individuals experiencing the problem, the "job to be done" (JTBD) or task they are trying to accomplish, and a specific use case illustrating the problem.
+3. **What is its Magnitude?** This entails understanding the size of the problem and the opportunity it presents.
+
+In essence, a problem statement should be succinct, ideally limited to one or two paragraphs, but it must be clear, factual, and engaging. It should explicitly mention who is affected by the problem and its scale. You do not need to use jargon like "job to be done." Instead, use plain language to communicate the essential information.
+
+While addressing the problem, it's advisable to focus on the major causes rather than delving into excessive detail. More intricate problem narratives can be explored in other documents. Additionally, if you have multiple problems, you can consider summarizing them under a broader issue. The key is to ensure that your problem statement remains concise and to the point, typically within one paragraph.
+
+If you omit the actor affected by the problem, its size, or a sense of its significance, the problem statement may lack clarity and context. While you don't need to include the term "job to be done" in your problem statement, you can use the concept of a use case to illustrate the issue. It's important to avoid using product management jargon and focus on providing straightforward answers. Ultimately, your goal is to encompass these nine essential elements in your problem statement to clearly define the problem:
+
+**Problem Narratives**
+
+Problem narratives are in-depth stories, typically spanning 1 to 2 pages, that vividly depict a specific problem. They often include real examples and personas, walking the reader through the problem to make it tangible and relatable. The goal of a problem narrative is to persuade the reader of the problem's significance and the importance of solving it. These narratives are characterized by a conversational tone that conveys the "pain" associated with the problem. Additionally, they must incorporate all nine essential elements of the problem to provide the necessary details for understanding and credibility. Problem narratives serve as a powerful tool for engaging stakeholders and conveying the urgency of addressing the problem.

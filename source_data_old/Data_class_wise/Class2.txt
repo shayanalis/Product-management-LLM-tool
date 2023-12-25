@@ -1,0 +1,41 @@
+# Class 2: Cleaned transcripts
+
+I'm going to focus on what's called the actor and the job to be done. An actor is not someone in a movie. It's true that actors are in movies, but that's not the actor we're referring to here. Let me explain what an actor is in the context of a job to be done. These are critical elements for identifying a problem space, not the specific problem, but the overall space in which a problem exists. From there, we can find a specific problem within that space.
+
+Now, let me read the definition and provide some examples. An actor is a representative group of users who would potentially interact with your future product idea. They are the people you aim to serve with your product. For instance, if you're studying public transportation, you might consider studying different actors such as writers, drivers, or repair technicians. Let's say we focus on drivers as our actor. Another example could be sporting events, where fans would be the actors. Similarly, if we're looking at concerts or music events, ticket holders would be the actors. These are just a few examples to illustrate the concept.
+
+When it comes to payment processing, you might want to look at specific actors like cardholders or merchants. Now, let's say you're interested in ride-hailing services. In that case, you can consider passengers and drivers as the actors. I mentioned two here just to provide an illustration. If we shift our attention to online shopping, we can think of actors such as shoppers and merchants. Additionally, we can even consider the intermediaries who govern the marketplace, like Amazon. They connect buyers and sellers, so they play a crucial role. You could also choose to be that intermediary if you wish. The key point is that there are numerous fertile lands and multiple actors within each land. It's important to select one specific actor to focus on.
+
+Now, let's move on to the next step. I'm going to provide some examples to help you understand the concept better. We'll go through some actors, and you can shout out your answers to the following question: If we consider universities as a fertile land, who are some of the actors we could study in order to identify a valuable customer problem to solve? Think about it and feel free to share your thoughts.
+
+Let's go through some examples. Think of universities as a fertile land. Who are some of the actors we could study to find or understand a valuable customer problem to solve? Students and faculty are two actors we can consider. Are there any other university actors we should explore?
+
+Well, we can also look at lab technicians, teachers, academic staff, operational staff, administrative staff, kitchen staff in the university dining hall, campus visitors, and even shareholders and the board of directors. These are all potential actors in the university ecosystem.
+
+It's important to note that when we talk about actors, we are referring to individuals and groups of people, not organizations or physical buildings like the dining hall. Ultimately, the products we create are meant to be bought and used by people, even if they are sitting on a desk or placed in a corner. Our focus should be on understanding user problems and delivering solutions that address their needs.
+
+Now let's move on to another example: restaurants. Which actors can we study in restaurants to find or understand valuable customer problems to solve?
+
+One potential actor in restaurants could be "Customers in restaurants," but that's quite broad because essentially anyone can be a customer. We need a more specific label to differentiate between different types of customers. So we could use terms like "patron" or "diner" to narrow it down. Other actors in a restaurant could include the chef, cashier, inspection officer, and delivery person. When it comes to suppliers, it's important to distinguish between the organization and the person. While "supplier" represents an organization, we want to focus on the person within that organization who can provide insights into their problems. So instead of just saying "suppliers," we can specify it as "delivery person" or look for specific roles like salespersons or administrative assistants. It's crucial to get specific and identify the right actor to understand their unique problems.
+
+We are looking at the problem from the perspective of the users or customers, as well as from the perspective of the business or the actors involved. It's up to you, the student, to choose which actor you want to focus on and understand their problems. There are many potential actors to study, and each one may have different problems. For example, in a restaurant, you could study the restaurant owner, chef, waiter, or patron, and each of them may have unique challenges or pain points. It's important to remember that there are many right answers, and you have the freedom to choose which actor to study based on your interest and the potential problems you want to address.
+
+Your job is to identify the actors and understand the "job to be done."
+
+Now, the concept of the fertile land is simply a tool to help you get started. It's not a scientific approach, but rather a way to guide your thinking. Don't worry too much about whether your fertile land description is too broad or narrow, or if it includes a specific person. As long as it leads you to the problem and the actors involved, it works.
+
+So, as students, I want you to think about who could be a potential user or actor for a product designed for reviewers. Consider various perspectives and brainstorm potential candidates. Once you have identified the actors, we can delve into understanding their needs and the job they need to get done.
+
+When it comes to identifying actors and customers, it's important to consider if a particular group, such as pets in a restaurant, faces a problem that can be addressed through a product. If research reveals that pets have specific needs or issues related to dining, then they can be considered as potential actors. However, if after conducting research you find that there isn't a significant problem or need for pets in restaurants, then it may not be a suitable actor to focus on.
+
+It's also important to avoid going down irrelevant paths. For example, if we're looking at a university, we might not want to focus on the cleaning staff as our primary actor. Instead, we could consider faculty researchers or students who spend money on products. However, even with seemingly irrelevant actors, it's possible to discover connections and products related to them.
+
+Now, let's move on to college courses. Can anyone name some actors who would be part of college courses?
+
+Student: Yes, students would be one of the primary actors in college courses.
+
+Lecturer: Absolutely, students are a key actor in college courses. Who else?
+
+Student: Professors would also be important actors in college courses.
+
+Lecturer: That's correct. Professors are another primary actor in the context of college courses. It's important to identify all the potential actors involved so that we can understand their needs and design products that address those needs effectively.

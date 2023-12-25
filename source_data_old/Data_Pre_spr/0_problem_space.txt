@@ -1,0 +1,21 @@
+# 🚀Problem space
+
+There are 9 Aspects of a problem space:
+
+Actor: An actor is a representative class of customers (users, buyers) of your product or service.
+
+Job To Be Done: is the fundamental task that the actor (customer) wants to complete.
+
+Use Case: A specific circumstance or set of circumstances in which the actor (Customer) does the Job To Be Done.
+
+Actual Outcomes: The results and experiences the actor (customer) has achieved when a Job To Be Done was completed.
+
+Desired Outcomes: The results and experiences the actor (customer) wants to get when a Job To Be Done is completed.
+
+Problem is the gap between the actor’s (customer’s) actual outcomes and their desired outcomes.
+
+Causes: The reason(s) that the problem occurs.
+
+Problem Size: The amount, severity and/or frequency of the problem.
+
+Opportunity Size The number of actors (customers) who have this problem.

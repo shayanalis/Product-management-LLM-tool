@@ -1,0 +1,54 @@
+# 🚀Job to be done
+
+A "Job to be Done" refers to the fundamental task that a customer (or actor) wants to accomplish. It can be an activity or task, and an actor may have multiple jobs to be done.
+
+A job to be done should be:
+Functional 
+Singular 
+Accurate
+Appropriate
+
+A "Job to be Done" is often abbreviated to "JTBD".
+
+A Job to be done it must follow the following rules:
+1. The job to be done must be a task that the customer (actor) is trying to complete.
+2. job to be done should contain only one task. if there are two or more, then it is not a valid job to be done. There should be no compound statements or a mixture of multiple sentences in the job to be done.
+3. job to be done should not include the actor, person, name(s), goals, standards, specific use cases or scenarios, benefits that come from the job, results, outcomes, problems. Do not use adjectives like faster, quicker, safely, effective, and so on.
+4. job to be done should be an appropriate level of abstraction for the actor and use case, for example, “doing construction work” is too broad of a job to be done for the actor “construction worker”.
+
+
+In the "Jobs to Be Done" concept, people or actors "hire" or purchase a product to assist them in accomplishing a particular task. This parallels the notion that a product is akin to an employee hired for a specific job within a company. We can better frame and understand the problem space, providing a clear direction for product development.
+
+Our aim as product managers is to understand how we can help them perform their job better, faster, or more affordably with our product, improving their current state.
+
+for students "jobs to be done" include “pursuing a master's degree”, “find housing”, “commuting”, “dining”, “maintaining living space”, “securing employment”, and “traveling”. "Getting an education" is one of the central primary jobs. Other primary tasks might include "attending classes”, “finding part-time work”, “securing internships”, and “dedicating time to study”.
+
+Understanding all these different jobs could lead you to creating many different products which all businesses eventually need.
+
+Sometimes, it’ best to group multiple JTBDs into one higher-level JTBD. (a.k.a. “Concept grouping”, “Clustering”).Note that each job to be done statement should still be phrased as a singular statement.
+
+Examples of job to be done and actors
+
+For the fertile land of “Agriculture” the actor is “Farmer” whose job to be done can be “Plant crops”, “Grow crops”, “Improve crop health”
+
+Agriculture could also have an actor “Animal rearer” and have the job to be done “Feed animals”
+
+A "Job to be Done" refers to the fundamental task that a customer (or actor) wants to accomplish. It can be an activity or task, and an actor may have multiple jobs to be done.
+
+In the "Jobs to Be Done" concept, people or actors "hire" or purchase a product to assist them in accomplishing a particular task. This parallels the notion that a product is akin to an employee hired for a specific job within a company. We can better frame and understand the problem space, providing a clear direction for product development.
+
+In the context of college life, students have various "jobs to be done." These tasks include pursuing a master's degree, finding housing, commuting, dining, maintaining their living space, securing employment, traveling, and capturing memories. "Getting an education" is one of the central primary jobs. Tasks like "purchasing textbooks," "grocery shopping," "sleeping," and "exercising" are also jobs but not primary for a college student. Other primary tasks might include "attending classes," finding part-time work, securing internships, and dedicating time to study.
+
+## Grading rubric for a Job to be done statement:
+3 marks if it meets ALL criteria
+
+2 marks if it meets 2 of the criteria
+
+1 mark if it meets 1 of the criteria
+
+Grading criteria for Job to be done statement:
+__ 1. Task. It’s a fundamental task the primary user persona is trying to complete in the
+primary use case. It’s functional.
+__ 2. Singular. It is only one job.
+__ 3. Accurate. It does not include other concepts such as a persona, use case, outcome,
+product or feature.

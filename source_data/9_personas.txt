@@ -1,0 +1,32 @@
+## Grading rubric for the Persona names
+All personas met all
+these criteria for
+identifying personas:
+
+2 marks if Most personas met all these criteria for identifying personas:
+
+1 mark Few personas met all these criteria for identifying personas:
+
+0 marks if No persona met all these criteria for identifying personas:
+
+### criteria for  Persona names
+1. Specific name. Each persona‘s name is specific. “Individuals” and “consumers” are not.
+2. Individual stakeholder. Each person’s name identifies a type of individual stakeholder in
+the purchase and/or use of your product. This name represents multiple individuals who have
+similar behaviors. “Organization” and “businesses” are not individuals.
+3. Accurate. Each persona’s name does not contain other concepts such as a role, use
+case, outcome or benefit.
+4. Distinct. There are clear, distinctive differences between each persona.
+
+
+### Criteria for Personas and Roles
+6 marks All essential personas and roles for your situation were identified.
+
+4 marks if Most essential personas and roles for your situation were identified.
+
+2 marks if Few essential personas and roles for your situation were identified.
+
+0 marks if No essential personas and roles for your situation were identified.
+
+You should have personas for these essential roles in the purchase/use of a product:
+User, Decider, Buyer, Influencer, Gatekeeper, Initiator

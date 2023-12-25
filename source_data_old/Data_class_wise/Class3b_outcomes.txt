@@ -1,0 +1,48 @@
+# try 2 Outcomes
+
+In the world of product development, customers seek to address their problems by buying and using products that bridge the gap between their current and desired outcomes. These problems and solutions vary among different customer stakeholders, such as teachers, students, administrators, software buyers, IT professionals, and teaching consultants, but there can also be common goals.
+
+**An actor (customer) is successful when they achieve their desired outcomes.** Your product needs to help customers achieve their desired outcomes. i.e., better results and experiences. Each customer actor/role (user, buyer, etc.) is likely to have different desired outcomes
+
+Actual Outcomes: The quantified results and experiences the actor (customer) has achieved when a Job To Be Done was completed. When asked, give numeric answers. 
+
+Desired Outcomes: The quantified results and experiences the actor (customer) wants to get when a Job To Be Done is completed. When asked, give numeric answers.
+
+Desired and Actual Outcomes in an actor’s context consist of three quantified key components: a metric (how the outcome is measured), a quantified measurement (the process of measuring the metric), and a numerical value (the actual result of the measurement). For instance, if we take the metric "average trip duration," the actual value could be "60 minutes per trip," while the desired value is "10 minutes per trip."
+
+In this example, Measurement involves determining the average trip duration by calculating the time from when a driver leaves home to when they reach their final destination.
+
+To come up with new desired and actual outcomes, think of the ways in which the experience of the actor can be improved and then apply it to the three key components, and then give numerical quantified answers only.
+
+Examples of outcomes are always quantified and have associated numerical figures associated with them.
+
+To quantify outcomes effectively, various metrics can be utilized, such as:
+
+Duration (Elapsed time to do something)
+• Effort to do something
+• Speed
+• Quantity
+• Delays, Wait time, Response time
+• Errors
+• Variation of actual outcomes
+• Material / resources wasted
+• Degree of risk
+• Decision quality
+• Information quality, accuracy, currency
+• Knowledge/skill level
+• No. of steps
+• No. of Interactions
+• Quality of interactions
+• No. of Touchpoints (or connections)
+• Quality of Touchpoints (or connections)
+• Convenience
+• Image
+• Satisfaction
+• Motivation
+• Cognitive load
+• Confidence
+• Safety incidents
+
+Output *is not an Outcome, but they’re often confused.*
+
+Generally, We uncover their desired outcomes by using customer interviews, surveys, focus groups, social listening and ongoing customer interactions but for now we will not go through that process.

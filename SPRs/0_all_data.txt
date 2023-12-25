@@ -1,0 +1,80 @@
+- Product Management Essentials course
+- Taught by Jim Berardone, Carnegie Mellon University
+- Target audience: software engineers
+- Objectives: teach product management fundamentals
+
+**Fertile Land**
+- Concept: fertile land – areas ripe for problem-solving, product opportunities
+- Not domain-specific
+- Includes multiple problem spaces
+- "As Is" vs. "To Be" state transition
+- Diverse range: transportation, exploration, gaming, events, farming, travel
+
+**Problem Space**
+- 9 aspects: Actor, Job To Be Done, Use Case, Actual Outcomes, Desired Outcomes, Problem, Causes, Problem Size, Opportunity Size
+- Problem Space and Customer Actor have specific grading rubrics
+
+**Actor**
+- Represents user class
+- Not organizations or physical entities
+- Varies across fertile lands: Rider, Fan, Ticketholder, etc.
+- Specificity balance; not geographically bound
+- Alternative terms: Customer, User Persona, etc.
+
+**Job To Be Done (JTBD)**
+- Fundamental task customer aims to accomplish
+- Functional, singular, and appropriate abstraction level
+- Analogous to hiring a product for a job
+- College-related examples: education, housing, commuting
+- Grouping multiple JTBDs into higher-level ones allowed
+- JTBD statement has a grading rubric
+
+**Use Cases**
+- Significant, clear, and distinct actor-specific circumstances for JTBD execution
+- Named unambiguously, excluding actor, JTBD, outcome
+- Hierarchy, clarity, and accuracy
+- Contextual prompts: Locations, Environments, Timings, Tools/Objects
+- Use cases grading rubric applied
+
+**Causes**
+- Differentiate between root and contributing causes
+- Address root causes or mitigate contributing cause impact
+- Problem-solving is cyclical, not linear
+- Task, information, object analysis techniques
+- Problem-solving techniques listed
+
+**Outcomes**
+- Actor success tied to achieving desired outcomes
+- Quantified key components: metric, measurement, numerical value
+- Metrics include duration, effort, speed, etc.
+- Desired vs. actual outcome examples are numerical
+- Outcomes statement has a grading rubric
+
+**Problem**
+- Problem: the difference between actual and desired outcomes; opportunity
+- Complexities with multiple actors and outcomes
+- Uncovering outcomes via interviews, observations, etc.
+- Desired outcomes may require expectation management
+- Problem communication involves problem category and statements
+
+**Problem Magnitude**
+- Problem magnitude: the scale and size of a problem; assessment factor
+- Consists of amount, severity, frequency, probability, growth rate
+- "Annualizing" for consistency
+- Opportunity Size: number of individuals affected
+- Data gathering and estimation techniques provided
+
+**Problem Communication**
+- Problem Category: concise type/class label
+- Problem Statement: contains essential elements of the problem
+- Problem Narratives: in-depth stories that make the problem tangible
+- Problem Magnitude: used to evaluate, prioritize, and communicate the problem's significance
+
+**Problem Complexity**
+- Handling complex outcomes, gaps, and prioritizing problems
+- Real-life applications: practical focus, iterative learning
+- Magnitude and opportunity size estimation guidelines provided
+
+**Grading Rubrics**
+- Specific rubrics for evaluating problem spaces, actor identification, and various other course aspects
+- Criteria provided for successful identification and grading of personas and roles

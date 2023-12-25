@@ -1,0 +1,13 @@
+## Grading rubric for a Job to be done statement:
+3 marks if it meets ALL criteria
+
+2 marks if it meets 2 of the criteria
+
+1 mark if it meets 1 of the criteria
+
+Grading criteria for Job to be done statement:
+__ 1. Task. It’s a fundamental task the primary user persona is trying to complete in the
+primary use case. It’s functional.
+__ 2. Singular. It is only one job.
+__ 3. Accurate. It does not include other concepts such as a persona, use case, outcome,
+product or feature.

@@ -1,0 +1,1 @@
+'1. Grading rubric for job to be done refers to task completion by primary user persona.\n2. Single, unique task assessed.\n3. Excludes extraneous factors - persona, use case, outcome, product, feature. \n4. Rubric based on meeting task completion criteria - number of criteria met equals score.'

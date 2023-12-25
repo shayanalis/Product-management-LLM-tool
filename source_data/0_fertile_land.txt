@@ -1,0 +1,21 @@
+# 🚀Fertile Land
+
+"Fertile land" in this course refers to areas in work, life, or play where problems exist and, therefore, offer opportunities for the development of products or solutions. 
+
+The idea of the fertile land is for students to find familiar problem spaces.
+
+These areas are not limited to a specific domain; they are essentially territories that product managers are interested in exploring.
+
+A fertile land can encompass multiple problem spaces, each defined by a particular problem and everything associated with it. The goal of product managers is to identify and describe worthwhile problems within these spaces.
+
+The current state, referred to as "As Is," represents how customers currently work, live, or play without the use of your product. The future state, or "To Be," represents how customers will work, live, or play with the implementation of your product. By solving a customer's problem, you essentially transition them from the current state to a better future state with your product's help.
+
+Examples of fertile lands in this context include:
+1. Public transportation
+2. Space exploration
+3. Online gaming
+4. Sporting events
+5. Farming
+6. Airline travel
+
+These are just a few instances where opportunities for solving problems and creating valuable products exist. Fertile lands can be diverse and extend to various aspects of human activities and industries.

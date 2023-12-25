@@ -1,0 +1,67 @@
+# 🚀Problem Magnitude
+
+**Magnitude is the size and extent of a problem**
+
+The magnitude helps us to:
+• evaluate if it is worthwhile to solve
+• prioritize multiple problems to solve
+• conceive, design, validate a solution
+• communicate the value of our solution
+
+**Problem size**
+
+The amount, severity and/or frequency of the problem
+
+The **Problem Size:** consists of:
+
+**1. Amount** – Gap between the actual and desired outcome ****2. Severity** – the seriousness of the problem on the actor. **3. Frequency of occurrence** – the number of times or rate that a problem occurs per some unit of measure (such as a time period.) **4. Probability** – the likelihood the problem will occur in a time period. **5. Growth Rate** – the rate that the problem is changing.
+
+**Annualizing** 
+
+Consistency is key when working with problem sizes. Numbers should be in terms of annualized figures, which makes it easier to compare and analyze problems on the same basis. While annualizing is a helpful practice, it's not a strict requirement. For example, if you have data like 10 logins per day, you can easily convert it to 3,650 logins per year, unless you specifically want to consider business days and adjust the number accordingly. The goal is to have a standardized basis for problem size comparison.
+
+When calculating the **“frequency” to size a problem think of** How often does the problem occur? 1. the number of occurrences 2. the rate that a problem occurs (% or ratio) Always use a unit of measure such as: • Time period (per day, per week, per year, etc.) • Occurrence (per trip, per visit, per kilometer, etc.)
+
+to assess whether the problem's frequency or size is increasing or decreasing over time. A problem becoming more prevalent makes it more attractive to solve, while a declining problem becomes less appealing.
+
+If a problem occurs 75% of the time you drive to work, it's a frequent issue that demands attention. In terms of severity, you might also measure the number of defects per 1,000 lines of code, which is common in software development.
+
+Furthermore, you can use probability as a gauge. For instance, let's take the example of a car accident. Even though a car accident can have severe consequences like injury or death, it doesn't happen very often. This low probability plays a significant role in problem sizing. Problems with a high probability of occurrence are generally more critical and challenging to solve compared to those with a low probability of happening.
+
+**Using “severity” to size a problem you can classify it into** 
+
+1. very high
+2. high
+3. medium
+4. low or minor
+5. very low or none
+
+**Using “probability” to size a problem:** Probability is the likelihood the problem will occur. A worthwhile problem to solve could occur randomly. • Car accidents • Disease • Security breach • Identity theft
+
+**The problem sizes can help you to prioritize problems to solve. Your Actor has multiple desired outcomes. There can be gaps with multiple outcomes. You could compare and select**
+
+When calculating problem sizes for the entire world, you are essentially estimating the total potential market. It's crucial to ensure that your estimates align with your chosen definition of the actors. For example, if you've defined your actor as a college teacher, your problem size estimate should reflect the number of college teachers worldwide who are affected by the problem you're addressing. Problem sizing is also related to the TAM - total addressable market, which represents what you can realistically access or serve.
+
+And measurement is simply how we calculate or obtain the value for that metric.
+
+**Opportunity Size**: refers to the total number of individuals or potential customers who are currently experiencing the identified problem. In some contexts, you might come across the term "market size," but to avoid any confusion, we specifically use "opportunity size" to denote the number of people affected by the problem. This distinction helps clarify its purpose in understanding the scope and potential for solving the problem.
+
+here are a few avenues to explore when gathering data and insights:
+
+1. **Research from Credible Sources**: You can begin by conducting a Google search to uncover research from reputable sources. Such sources often provide estimates that can help you determine the problem size and opportunity size. Google Trends can also be helpful.
+2. **Leveraging Your Own Experience**: Drawing from your personal experience and observations is another valuable approach. While this may introduce some bias due to your limited perspective, it's acceptable for the purpose of this course. We are not aiming for pinpoint accuracy, nor are we planning multi-million-dollar product investments. Instead, the focus is on understanding the concepts and their practical application. Feel free to use your experience to estimate a number or range, or even consider yourself as a data point.
+3. **Documentation and Assumptions**: In your idea workbook, it's essential to document how you arrived at your calculations and what assumptions underpin your estimates. This transparency ensures that your process is clear and reproducible.
+4. **Iterative Learning**: It's entirely acceptable to make educated guesses when you're starting out. The worst-case scenario is that you'll initially rely on approximations. The key is to observe how these numbers play out and understand why it's vital to gain more confidence in your estimates. Some aspects may be more qualitative in nature, but the goal is to encourage you to consider various outcomes.
+5. **Prioritization**: As you gather data and define problem sizes, you'll need to prioritize which issues to address first, second, and so on. This step is crucial in determining the sequence of tackling problems effectively.
+
+Remember, this process is a learning opportunity to grasp the concepts and their practical application. It's about building your skills and understanding, not striving for perfection from the outset.
+
+**Opportunity sizes that are Not obviously quantifiable**
+
+In some instances, it might be challenging to find a precise number. Take, for example, a scenario like the one faced by a student in the class who was dealing with fitness enthusiasts. This can be a complex group to quantify since individuals don't typically wear a label proclaiming their fitness enthusiasm. Thus, determining the opportunity size may require creative strategies, but at its core, it's simply about estimating the number of people who match the characteristics of your actor.
+
+**Complex outcomes and gaps**
+
+When dealing with multiple desired outcomes, you might identify various gaps. This diversity can serve as a basis for prioritizing which problems to address. You can create plots that compare frequency versus the amount, or severity versus frequency, or any combination that you find relevant. Experimenting with these combinations can yield valuable insights.
+
+In this course, the primary focus is on solving one problem initially. However, in an organizational setting, you would typically gather input from various stakeholders. This might involve collecting opinions from multiple individuals, identifying outliers in the group, and reaching a consensus on which problems to prioritize. Gathering customer input is even more beneficial, and having substantial data from many customers can further enhance decision-making. Building confidence in your problem-sizing numbers can be achieved through these various approaches.

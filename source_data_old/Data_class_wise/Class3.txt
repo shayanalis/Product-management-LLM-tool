@@ -1,0 +1,164 @@
+Class 3: Transcript
+
+Agenda for Customer problem space part 2:
+
+Use Case
+
+Actual Outcomes
+
+Desired Outcomes
+
+Aspects of a problem space:
+
+Actor: An actor is a representative class of customers (users, buyers) of your product or service.
+
+Job To Be Done: is the fundamental task that the actor (customer) wants to complete.
+
+Use Case: A specific circumstance or set of circumstances in which the actor (Customer) does the Job To Be Done.
+
+Actual Outcomes: The results and experiences the actor (customer) has achieved when a Job To Be Done was completed.
+
+Desired Outcomes: The results and experiences the actor (customer) wants to get when a Job To Be Done is completed.
+
+Problem is the gap between the actor’s (customer’s) actual outcomes and their desired outcomes.
+
+Causes: The reason(s) that the problem occurs.
+
+Problem Size: The amount, severity and/or frequency of the problem.
+
+Opportunity Size The number of actors (customers) who have this problem.
+
+All problem analysis concepts are interrelated i.e., a change in one may change another
+
+Learning Tips
+Be patient! We can’t learn and do everything at once. If you have an idea, don’t force it into your work. There will be a place for it later.
+It’s okay to change your customer problem space, especially in the first week of the class. Evolutionary change is okay, but a revolutionary change will require more work for
+you.
+
+Use cases
+
+Definition: Use Case: A specific circumstance or set of circumstances in which the actor (customer) does the Job To Be Done. A use case becomes a target circumstance for your product idea to be used. Each Use Case may lead to different product features, products, pricing, designs, packaging, marketing messages, etc.
+Alternative Terms for use cases are.
+
+- “Use”
+- “Usage Occasion” (often in Consumer-Packaged Goods industry),
+- “Operational Scenario” (MSE/Software Engineering)
+- “Application” (often with Manufactured products”
+- “Indication” (often in the Pharma industry)
+- “Solution”
+
+Examples of valid use cases for the actor “Rider” and the job to be done “**Be driven to a destination**” are as follows:
+
+1. “During extreme weather” 
+2. “During peak hours”, “During normal hours”
+3. “while riding with others”, “while riding alone”
+
+Note: that Use cases are specific to a job to be done and the actor. 
+
+Focus on the most significant use cases.
+You do not want to have use cases that are only relevant to a narrow group of people, because such narrow use cases will not be very useful.
+
+There is a hierarchy of use cases. 
+
+Nobody in the world calls them “sub use cases” with the example of baking soda there are many use cases, If a main use case is Deodorizing, then sub use cases can be”
+
+- Deodorizing refrigerators
+- Deodorizing wastebaskets
+- Deodorizing recyclables
+
+There could be a hierarchy of use cases. Focus on the top level for this course.
+
+Some useful contextual prompts for **Identifying potential use cases:**
+
+Where are the different places or locations the customer does the JTBD?
+(e.g., At Home. Mobile. Indoors. Outdoors.)
+
+What are the different environments in which the customer does the JTBD? (e.g., Hot climates. Cold climates. Remote Meetings. On-site Meetings.)
+
+When does the customer do the JTBD? (occasions, events, instances)
+(e.g., Daytime, Night-time. Remote Meetings, In-Person Meetings.)
+
+With what ‘objects’ does the customer use to do the JTBD?
+(e.g., iOS devices. Android devices. Cloud. 220V, 110V.)
+
+Important points for making use cases:
+
+1. Do not include the The job to be done outcomes, or any other concept as you create the use case. 
+2. But you want it to be concise. 
+3. You want to be accurate.
+4. Don't put other concepts like outcomes in the use case.
+
+1. You may combine multiple contextual factors to name a use case (and you likely will!)
+- Example: *Remote meetings on iOS devices.*
+
+**4 Criteria for naming  your Use Cases:**
+
+1. **Important.** It should be significant to the actor.
+2. **Distinct.** There are clear, distinctive contextual differences between each use case.
+3. **Clearly named.** It’s specific, unique and unambiguous. (You can put it on a web site.)
+
+Bad: Online  (This is likely ambiguous)
+
+Good: Searching online. (or, Shopping online. Communicating online.
+
+Bad: Shopping  (This is likely ambiguous)
+
+Good: Shopping online. (or, Shopping at a store.)
+
+**Accurate. The use case name does not include the actor, JTBD, outcome or other concept.**
+
+Bad: Transporting goods faster and cheaper.
+
+fast/cheap are outcomes or benefits.
+
+Bad: College student is travelling alone.
+
+college student is an actor
+
+### The problem
+
+The gap between the actual outcomes the actors getting doing the job and the desired outcomes is the problem.
+
+Your product needs to help customers get better outcomes.
+For example, if your actor is getting a $100,000 salary, they deserve 150,000 salary.
+Your product or service has to help them close that gap or eliminate that gap. 
+
+The other thing is, it gets complicated because every actor has many oftentimes a number of desired outcomes and experiences.
+And there are many actors
+There's like the in the canvas software. We have, the Teaching assistant, a teacher, the student user, and the system administrator user, they all have different outcomes They want to achieve, it gets much more complicated.
+
+So they have different outcomes and different jobs.
+But you have to learn the basics that all these fundamental pieces first.
+The way we go about uncovering these outcomes is through interviewing customers or users, potential users by observing them, doing their job, and sometimes taking our job and doing it.
+So we understand the better. Sometimes we do surveys. Some people might still do focus groups.
+
+And social media listening data analysis, you capture data when people do purchase on the Internet or whatever the thing is, there are all sorts of ways to get that information. However, we're not teaching any of those in this course because there’s just not enough time.
+
+But the advantage of this is that you learn what you need to know so that you can actually go find that stuff that you need to know.
+
+Okay. Alright. Now, alternative terms, use results, consequences, key results and results. Achievements.
+Experiences, measures of we're using outcomes.
+
+Sometimes customers (actors) do not know what is possible to achieve. Sometimes customers’ desired outcomes are not realistic. You’ll need to change their expectations of what is possible.
+
+So I basically said, “If I asked people what they wanted, they would have said faster horses.”
+And the message is that actors don't always know what's possible.
+They don't know what's better. And so when you think of the term desired outcome and come, implies that the actors that's what you might think of as a desirable outcome.
+That they would these being, they would desire it, one if they do as possible, and you can do it for okay.
+
+So just keep out of mind sometimes you do young realistic outcomes, you know, like, you know, I don't want to get somewhere faster I want to get somewhere instantly.
+We have the technology, they do that, and they might have an outcome.
+That's not realistic. And then you have to reset their expectations or set a different goal. But the goal ultimately is to improve the results, and experiences are getting today.
+
+That could be increasing, something decreasing, something maximizing, or minimizing.
+
+So if the goal of someone is to increase our salary from 100,000 to 150, that's a goal.
+That's also these are an hour. Okay? So that could be an interchangeable term there.
+I probably should put that as one of the alternative terms.
+
+We call it a metric. So an example same for travel might be to reduce accidents.
+That's an outcome concept, and then you can. Then you identify a goal, like a “0% accident rate”. It is better to quantify than to say something like ‘minimize accident rate’.
+
+The goal that you set has a big influence on how you solve the problem in the solution space.
+
+you might get a very different solution or whether you can solve it or not, based on how you think about your outcomes.

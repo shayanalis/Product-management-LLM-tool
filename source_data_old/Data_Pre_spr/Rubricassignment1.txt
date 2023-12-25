@@ -1,0 +1,13 @@
+
+Grading Rubric for Problem Space:
+
+2 pts: Full Marks for 2 fully-completed problem space candidates were provided.
+1 pts: Partial Credit: Only 1 Problem Space candidate was fully-completed.
+0 pts: Unacceptable: None of the 2 problem space candidates were fully-completed.
+
+
+### Grading Rubric for Customer Actor:
+1.5 pts Full Marks: The actor is each problem space was identified effectively. Each represented a class of potential users, was not too general or too specific, and was concisely labelled.
+0.75 pts: Partial Credit: 1 of the 2 customer actors was identified effectively. One represented a class of potential users, was not too general or too specific, and was concisely labelled.
+0 pts: Unacceptable: None of the 2 actors were identified effectively.
+

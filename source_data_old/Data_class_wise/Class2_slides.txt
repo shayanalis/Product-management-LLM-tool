@@ -1,0 +1,225 @@
+The following is class lecture material for the course "17-692 Product Management Essentials for engineers" taught by Jim Berardone, Professor of Product Management:
+
+The current state is  How customers work, live or play, Without your product, this is called “As Is”
+
+Future State is How customers work, live or play. this is the state of customers With your product
+
+and is called “To Be”.
+
+By solving a customer’s problem, you move them to a better future state.
+
+Where can we find worthwhile problems to solve? The answer to this is what we call in this course as “Fertile land”
+
+it is defined as “An area of work, life or play where they are problems to solve”
+
+i.e., has opportunities for products
+
+1. It’s just an area that you want to “study”
+2. It can be any area you think is worth exploring.
+
+Some examples of Fertile Lands are the following:
+
+Public transportation
+
+Space exploration
+
+Online gaming
+
+Sporting events
+
+Farming
+
+Airline travel
+
+Music concerts
+
+Education
+
+Optical shopping
+
+Payment processing
+
+Elementary schools
+
+Cross-country running
+
+Ride hailing
+
+Video streaming
+
+Bicycle commuting
+
+Internet searching
+
+Online shopping
+
+Grocery shopping
+
+Personal fitness
+
+Software development
+
+Home healthcare
+
+A fertile land could have many problem spaces.
+
+A problem space is described by its problem, and everything associated with it.
+
+Our objective as product managers  is to to identify and describe a worthwhile problem to solve.
+
+To identify a problem space, start with 2 key concepts:
+
+An Actor is a representative class of users of your future
+product. They will interact with your product.
+
+Here are a few examples:
+
+A Fertile Land of Public transportation could have an actor Rider
+
+A Fertile Land of Sporting Events could have an actor Fan
+
+A Fertile Land of Music Concerts could have an actor Ticketholder
+
+A Fertile Land of Payment processing could have an actor Cardholder
+
+A Fertile Land of Ride Hailing could have the actors “Passenger” and “Driver”
+
+A Fertile Land of Online shopping could have an actor Shopper and merchant
+
+It’s up to you to decide how general or specific should the actor be?
+
+by saying “Teacher” you are talking about all teachers on the planet, if you wish to make the actor more specific you can instead say “College Teachers”. that would narrow it down to all teachers at the college level on the planet. “College Teachers at 300 South Craig St, Room 265”  would narrow it down even further to all teachers who teach in this room. 
+
+However for this course it is important to define the actor at a level that is not too general or too specific. 
+
+The broader it is, the more problems exist…but could be too many to deal with. The more focused or narrow it is, you might miss a worthwhile problem
+
+For now, do not get too specific to a geography (e.g., College Teachers in the USA)
+
+Definition: Actor (or Customer Actor)
+
+An actor is a representative class of users of your (future) product. An actor will
+interact with your product.
+
+Why identify an actor?
+
+To put your focus on the potential customers when trying to identify and solve a customer problem. You
+need to solve their problem with a product.
+
+Alternative terms used by product managers:
+
+Customer, Customer Persona, User Persona, Persona, Customer Archetype, User Archetype
+
+In this course we will stick to the term actor.
+
+Definition: Job To Be Done (JTBD)
+
+JTBD is the fundamental task the customer (actor) wants to complete.
+
+It’s something an actor does (a.k.a. activity)
+
+An actor can have many Jobs To Be Done.
+
+Job to be done is useful because  It’s a great way to get oriented to
+find a problem. When you understand the job, you can find problems they have in getting that job done. People will hire products and services to help them get that job done better.
+
+For the fertile land of “Agriculture” the actor is “Farmer” whose job to be done can be “Plant crops”, “Grow crops”, “Improve crop health”
+
+Agriculture could also have an actor “Animal rearer” and have the job to be done “Feed animals”
+
+For the fertile land of universities, the actor is “student” whose job to be done is  ”Making a schedule” “managing a schedule”, “Getting an internship”.
+
+For the fertile land of Musical Play the actor is Dancer whose job to be done can be “learn choreohraphy”, “Learn a song” “get a costume” and “reshearse”
+
+Another actor for the fertile land of musical play, can be “Director”, whose job to be done is “Choose Cast”, “Choose songs” and “write story”.
+
+Do NOT identify a specific name of a person as the actor. We want to create one product for many. for example don’t write John smith, write “teacher” insead.
+we DO want to use a “label” that represents a class of many similar “customers” in a market.
+
+Important tips for job to be done statements:
+Do not write about frequency of the task to be performed. Words like, hourly, daily, weekly, monthly are not relevant for the job to be done statement.
+Do not write outcomes from the job that can be achieved after the job is complete, instead keep the job pure and simple.
+Do not write use cases such as scenarios under which the job can be performed. This is not relevant to the job to be done statement in the 17-692 Product Management Essentials for engineers course.
+Do not describe the the action of the job to be done statement with Adverbs like quickly, precisely, reliably, effectively, efficiently. 
+Do not add expectations about the job to be done within the job to be done statement
+Adjectives are not needed to form a statement, because they describe the outcome of the job and are not the job itself.
+
+Actors: The Rules and Relationships
+
+An actor is representative of a class of users of your product.
+
+It does not represent a specific person.
+
+An actor’s label must be clear, accurate, easy to understand, easy to communicate.
+
+Do not be too general (e.g., person.) Do not be too specific (e.g., a smart, large teacher)
+
+You want to be able to estimate the number of people who fit the “actor.”
+
+Later, you will divide the market of actors into “market segments.”
+
+Relationships
+
+There can be more than one actor in a fertile land.
+
+There can be more than one actor for a given customer role.
+
+There can be more than one customer role for an actor.
+
+Tips for forming a Job to be done:
+Sometimes, it’ best to group multiple JTBDs into one higher-level JTBD. (a.k.a. “Concept grouping”, “Clustering”)
+
+For example “Develop talent" can be a higher-level JTBD for the Actor of a professor.
+
+And lower level jobs can be “Give lecture”, “Coach students”, “Assess student skills”, “Give feedback”, “Track student progress”and “Assess student skills”
+
+Sometimes, it’s useful to apply “abstraction laddering”
+
+4 Rules for writing JTBD statements.
+
+1. Functional. It is a task that the customer (actor) is trying to complete.
+
+a Bad job to be done statement is “To feel confident.” because this is not a task
+
+1. Singular. The statement should contain only one task.
+
+Bad “Repair a house and car” because it has two different jobs.
+
+it would be better to break it down into two jobs “Repair a house” and “Repair a car.”
+
+1. Accurate. It should not include other concepts such as an actor’s name, a use case, a benefit, a result, a product
+or feature.
+
+Bad = Get a full-time job faster. (faster is a result, not a job.)
+
+Good = Get a full-time job.
+
+1. Appropriate. It is at an appropriate level of abstraction for the actor and use case.
+
+Examples of well-written JTBDs:
+
+Customer Actor: Student job seeker
+Job To Be Done: Get a full-time job.
+
+Customer Actor: Music enthusiast
+Job To Be Done: Listen to music.
+
+Customer Actor: Student traveler
+Job To Be Done:Take a holiday trip.
+
+Customer Actor:Interventional Cardiologist
+Job To Be Done:Restore blood flow.
+
+Customer Actor: Forklift driver
+Job To Be Done:Move goods into storage.
+
+Customer Actor: Farmer
+Job To Be Done:Grow a crop.
+
+Customer Actor: Farmer
+Job To Be Done:Prevent weed growth.
+
+Customer Actor: Driver
+Job To Be Done:Get to a destination.
+
+You have to iterate between Actors and JTBDs before you have a “good” combination.

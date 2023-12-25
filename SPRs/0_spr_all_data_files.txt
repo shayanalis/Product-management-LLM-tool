@@ -1,0 +1,28 @@
+- Product Management Essentials course
+- Simplified concepts for software engineers
+- Jim Berardone, Carnegie Mellon University
+- Fertile land: problem-rich areas
+- Problem spaces: opportunities for solutions
+- As Is vs. To Be states
+- Public transportation, space exploration, online gaming, sporting events, farming, airline travel: fertile land examples
+- Actor: customer class
+- Job To Be Done (JTBD): fundamental task
+- Use Case: specific circumstances for JTBD
+- Actual vs. Desired Outcomes: results gap
+- Problem: outcomes gap
+- Causes: root and contributing
+- Problem Size: amount, severity, frequency
+- Opportunity Size: affected actor count
+- Actor specificity: avoid too general or narrow
+- JTBD rules: functional, singular, accurate, appropriate abstraction
+- Use cases: important, distinct, clearly named, accurate
+- Causes analysis: root, contributing, systematic approach
+- Task, Information, Object Analysis
+- Outcomes: actual vs. desired, quantified
+- Problem definition: outcomes gap
+- Problem Communication: category, statement, narratives
+- Problem Magnitude: size, severity, frequency, probability, growth rate
+- Opportunity Size: affected individual count
+- Grading rubrics: problem space, actor, JTBD, use cases, outcomes
+- Persona names criteria: specific, individual stakeholder, accurate, distinct
+- Essential personas and roles: user, decider, buyer, influencer, gatekeeper, initiator

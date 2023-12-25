@@ -1,0 +1,13 @@
+## Grading rubric for the outcome statement:
+3 marks if All outcomes statements meet criteria
+2 marks if Most outcomes statements meet these criteria:
+1 mark if Few outcomes statements meet these criteria:
+0 marks if No outcomes statements meet these criteria:
+
+1. Result. The statement contains a type of result.
+2. End of JTBD. The outcome is a result the customer wants when the Job to be done is finished.
+3. Directional. The outcome indicates a direction of improvement (e.g. increase, minimize)
+4. Measurable. There’s a way to determine that the outcome was achieved. The specific,
+measured result may or may not be in the Outcome statement.
+5. Accurate. The outcome does not include the persona’s name, use case, JTBD, product or
+feature.

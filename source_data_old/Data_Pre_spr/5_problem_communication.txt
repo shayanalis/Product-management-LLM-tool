@@ -1,0 +1,38 @@
+# 🚀Problem Communication
+
+### Problem Category
+
+**Problem Category** is a concise label that defines a specific type or class of problem. Our brains naturally categorize things to aid understanding and recognition of differences. In the complex world of problem-solving, using problem categories helps in effective communication. While "Problem category" is not a widely used business term, the concept itself is frequently employed. You have the flexibility to choose the words that best fit your specific situation. A helpful tip, although not a strict rule, is to keep the category label short, typically within 2 to 4 words.
+
+**Example Problem Categories**:
+
+- Student Engagement
+- Customer Experience
+- Ride Sharing
+- Car Safety
+- Eyeglass Fitting
+- Application Deployment
+- Time Management
+- Video Streaming
+
+This approach is a practical way to provide a quick orientation to the problem you are addressing. When discussing your work, using a concise problem category helps people immediately grasp the general area of concern. While it may lack depth, it serves as an effective starting point for communication. Often, asking someone what problem they are solving results in lengthy and unclear responses. Using a couple of words, like "car safety problem," can instantly provide clarity and understanding, especially in brief conversations.
+
+### Problem Statement
+
+A problem statement is a concise and compelling description of the customer's issue that needs to be addressed. It must be clear, factual, and include all nine essential elements of the problem:
+
+What is the Problem? (gap; actual outcomes, desired outcomes; cause(s), actor; JTBD; a use case, problem size; opportunity size)
+
+1. **What is the Problem?** This involves identifying the gap, desired outcomes, and the cause(s) of the issue.
+2. **What is the Context in which it occurs?** This encompasses the actor or individuals experiencing the problem, the "job to be done" (JTBD) or task they are trying to accomplish, and a specific use case illustrating the problem.
+3. **What is its Magnitude?** This entails understanding the size of the problem and the opportunity it presents.
+
+In essence, a problem statement should be succinct, ideally limited to one or two paragraphs, but it must be clear, factual, and engaging. It should explicitly mention who is affected by the problem and its scale. You do not need to use jargon like "job to be done." Instead, use plain language to communicate the essential information.
+
+While addressing the problem, it's advisable to focus on the major causes rather than delving into excessive detail. More intricate problem narratives can be explored in other documents. Additionally, if you have multiple problems, you can consider summarizing them under a broader issue. The key is to ensure that your problem statement remains concise and to the point, typically within one paragraph.
+
+If you omit the actor affected by the problem, its size, or a sense of its significance, the problem statement may lack clarity and context. While you don't need to include the term "job to be done" in your problem statement, you can use the concept of a use case to illustrate the issue. It's important to avoid using product management jargon and focus on providing straightforward answers. Ultimately, your goal is to encompass these nine essential elements in your problem statement to clearly define the problem:
+
+**Problem Narratives**
+
+Problem narratives are in-depth stories, typically spanning 1 to 2 pages, that vividly depict a specific problem. They often include real examples and personas, walking the reader through the problem to make it tangible and relatable. The goal of a problem narrative is to persuade the reader of the problem's significance and the importance of solving it. These narratives are characterized by a conversational tone that conveys the "pain" associated with the problem. Additionally, they must incorporate all nine essential elements of the problem to provide the necessary details for understanding and credibility. Problem narratives serve as a powerful tool for engaging stakeholders and conveying the urgency of addressing the problem.

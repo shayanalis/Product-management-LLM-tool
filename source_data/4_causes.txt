@@ -1,0 +1,53 @@
+# 🚀Causes
+
+### Causes
+
+Identifying the causes of a problem is crucial because you must address these underlying factors, not just the visible symptoms, to effectively close the gap between actual and desired outcomes.
+
+Categorize causes into two main concepts:
+
+**1. Root Causes:** These are the fundamental, underlying reasons why the problem exists in the first place. Eliminating root causes is the most effective way to eliminate the problem entirely.
+
+**2. Contributing Causes:** These causes play a role in creating the problem but are not solely responsible for it. While they may not be sufficient to cause the problem on their own, they can contribute to increasing the magnitude of the problem, including its amount, severity, frequency, or probability.
+
+Traditionally, we're often taught to find the root cause, and that's a valid approach. However, in some cases, you might discover root causes so early in the chain that addressing them directly isn't feasible. In such situations, you can focus on reducing or mitigating some of the other contributing causes, which can still lead to a significant improvement in the problem. The key is to take a systematic and strategic approach to tackle all causes effectively.
+
+he "5 Whys" technique is a valuable approach to get to the root of a problem. The idea is simple: you keep asking "why" multiple times to uncover deeper layers of causality until you reach the fundamental issue. This technique is a helpful tool for those who already possess analytical skills and can be instrumental in gaining a comprehensive understanding of the problem. Identifying the root cause is a crucial step in the product development process, ensuring that you are addressing the correct problem before diving into solutions.
+
+These causes can lead to surface-level solutions. For instance, if you're trying to improve low scores on homework assignments and stop at a contributing cause without addressing the root cause, you won't completely close the gap between actual and desired outcomes.
+
+
+**Problem solving isn’t linear**
+
+Problem-solving processes aren't always linear; they can involve loops, branches, and various complexities. While we may not need to delve into intricate levels of sophistication, it's indeed helpful to identify the steps involved and thoroughly examine each one. Within each step, you can analyze both the desired and actual outcomes and pinpoint where the shortfall occurs. This deviation between desired and actual outcomes at specific steps can serve as the cause of the problem, ultimately affecting the overall job or task. By breaking down the problem into these step-by-step components, you can gain a more precise understanding of the issues and the areas where interventions may be needed to bridge the gap between the expected and actual results.
+
+**Task Analysis** involves a detailed examination of the tasks or processes required to complete a Job To Be Done (JTBD). It's often referred to as customer journey analysis, business process analysis, customer experience analysis, or value stream analysis.
+
+**Information Analysis** focuses on the information that customers use, how it's utilized, how it's generated, and its sources.
+
+**Object Analysis** centers around the devices, equipment, machines, or other physical objects that customers use in the course of their JTBD.
+
+Typical causes of "Object" problems can be categorized as follows:
+
+- **Interface**: This encompasses the human-to-object and object-to-object connections with other devices or systems, ensuring that interactions are seamless and efficient.
+- **Environment**: Factors like temperature, climate, and available space can significantly impact the object's performance and functionality.
+- **Performance**: This pertains to aspects such as the speed and reliability of the object, ensuring it meets the user's expectations.
+- **Ergonomics**: This involves considerations of the object's size, shape, weight, physical characteristics, form, and fit. It also takes into account the skills required to operate the object effectively.
+- **Operations**: Examining how the object is set up, used, controlled (on and off), and monitored in the context of the JTBD.
+- **Maintainability and Serviceability**: This involves assessing the object's capacity for repair, diagnosis of issues, and replacement of parts, as well as its overall longevity.
+- **Data**: Collecting and analyzing data related to the object's use, environmental conditions, and other pertinent information. This data can provide insights into how the object performs and how it can be improved.
+
+There are numerous techniques available for identifying the causes of a problem. These techniques include:
+
+1. **Judgment**: Relying on expert judgment and experience to identify potential causes.
+2. **5 Whys**: A method of repeatedly asking "why" to get to the root cause of a problem.
+3. **Regression Analysis**: Using statistical analysis to understand the relationships between variables and identify causes.
+4. **Randomized Controlled Trials**: A method often used in the pharmaceutical industry to study the effects of interventions.
+5. **Propensity Score Analysis**: A statistical technique to reduce bias when estimating causal effects from observational data.
+6. **Causal Inference**: Employing various methods to infer causality from observed data.
+7. **Ishikawa Fishbone Diagram (Cause and Effect Diagram)**: A visual tool for identifying potential causes and their relationships.
+8. **Fault Tree Analysis (FTA)**: A method for analyzing the causes of failures in complex systems.
+9. **Failure Mode Effects Analysis (FMEA)**: A structured approach to identifying and addressing potential failure modes.
+10. **Pareto Analysis**: Focusing on the most significant causes by prioritizing them based on their impact.
+
+These are just a few examples, and there are many more techniques available to suit different types of problems and industries. The choice of technique often depends on the specific context and nature of the problem you are trying to solve.

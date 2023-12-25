@@ -1,0 +1,37 @@
+# 🚀Actor
+
+An actor, in the context of product management and the "Job to be done" framework, represents a specific category of users who will interact with your future product. 
+
+Identifying actors and their associated jobs is crucial for defining the problem space, not the exact problem itself but the broader domain in which a problem exists. It's important to clarify that actors refer to individuals or groups of people, not organizations or physical entities like buildings.
+
+For instance, "Carnegie Mellon University" would not qualify as an actor because it's not a person. We focus on individuals who use and engage with the product to comprehend their unique challenges. In the realm of online shopping, an actor like "web developer" may not be relevant because they are not central to the online shopping experience.
+
+To gain a comprehensive understanding of the unique problems faced by users or customers, it's essential to approach the issue from both the user's perspective and the business's standpoint. Students have the flexibility to choose the actor they want to concentrate on and analyze their specific problems. There are numerous potential actors to study, each with its own distinct set of challenges.
+
+Here are a few examples of actors in fertile lands:
+
+A Fertile Land of Public Transportation could have an actor Rider
+
+A Fertile Land of Sporting Events could have an actor Fan
+
+A Fertile Land of Music Concerts could have an actor Ticketholder
+
+A Fertile Land of Payment processing could have an actor Cardholder
+
+A Fertile Land of Ride-Hailing could have the actors “Passenger” and “Driver”
+
+A Fertile Land of Online shopping could have an actor Shopper and merchant
+
+The actor can be as general as "Teacher," encompassing all teachers worldwide, or more specific, such as "College Teachers," narrowing it down to educators at the college level globally. For further precision, you can specify an actor like "College Teachers at 300 South Craig St, Room 265," targeting teachers in a particular room.
+
+However, in this course, we aim to strike a balance, avoiding extremes of being overly general or hyper-specific. An excessively broad definition might result in an overwhelming number of problems, while an excessively narrow one could cause valuable issues to be overlooked.
+
+For now, it's recommended not to specify a geographic location, like "College Teachers in the USA."
+
+Product managers may use alternative terms like "Customer," "Customer Persona," "User Persona," "Persona," "Customer Archetype," or "User Archetype" to refer to actors. In this course, we will adhere to the term "actor" for consistency.
+
+### Grading Rubric for Customer Actor:
+1.5 pts Full Marks: The actor is each problem space was identified effectively. Each represented a class of potential users, was not too general or too specific, and was concisely labelled.
+0.75 pts: Partial Credit: 1 of the 2 customer actors was identified effectively. One represented a class of potential users, was not too general or too specific, and was concisely labelled.
+0 pts: Unacceptable: None of the 2 actors were identified effectively.
+
