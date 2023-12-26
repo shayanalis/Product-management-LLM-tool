@@ -13,7 +13,6 @@ from langchain.agents.agent_toolkits import create_conversational_retrieval_agen
 
 import os
 
-OPENAI_API_KEY = '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'
 
 os.environ["OPENAI_API_KEY"] = OPENAI_API_KEY
 

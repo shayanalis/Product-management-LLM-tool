@@ -19,10 +19,6 @@ import random
 # import pdfminer.six
 # print(dir(pdfminer))
 
-shayan_key = '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'
-jim_key = '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'
-MODEL = "gpt-4"
-
 # gpt-4-1106-preview
 
 if "openai_api_key" not in st.session_state:

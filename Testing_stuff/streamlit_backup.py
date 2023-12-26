@@ -25,9 +25,6 @@ from langchain.vectorstores import Chroma
 # print(dir(pdfminer))
 
 
-openai.api_key = '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'
-os.environ["OPENAI_API_KEY"] = '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'
-openai_api_key = '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'
 
 # Enable to save to disk & reuse the model (for repeated queries on the same data)
 PERSIST = True
