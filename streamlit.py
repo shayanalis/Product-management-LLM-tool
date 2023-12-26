@@ -86,7 +86,6 @@ if "openai_api_key" not in st.session_state:
     )
 
     st.session_state['chain'] = chain
-    # st_callback = StreamlitCallbackHandler(st.container())
 
     llm=ChatOpenAI(model=MODEL_NAME, temperature=0,
                    streaming=True)
@@ -150,7 +149,7 @@ if "openai_api_key" not in st.session_state:
 # how do we give it a chat history?
 
 
-st.title("Product Management Essentials - Chat GPT tool") 
+# st.title("Product Management Essentials - Chat GPT tool") 
 
 if "messages" not in st.session_state:
     st.session_state["messages"] = [{"role": "assistant", "content": "Hi I'm ready to help!"}]
@@ -175,22 +174,21 @@ if prompt := st.chat_input():
     st.session_state.messages.append({"role": "user", "content": prompt})
     st.chat_message("user").write(prompt)
 
-    with get_openai_callback() as cb:
-          with st.chat_message("assistant"):
-            st_callback = StreamlitCallbackHandler(st.container())
-            # a1 = answer_prompt(user_input, callbacks=[st_callback], system_instructions="")
-            agent_response = st.session_state.agent_executor({"input": prompt, "chat_history": st.session_state.chat_history}, callbacks = [st_callback])
-            st.session_state.chat_history.append((agent_response['input'], agent_response['output']))
+    # with get_openai_callback() as cb: for prompt tokens and cost
+    with st.chat_message("assistant"):
+        st_callback = StreamlitCallbackHandler(st.container())
+        agent_response = st.session_state.agent_executor({"input": prompt, "chat_history": st.session_state.chat_history}, callbacks = [st_callback])
+        st.session_state.chat_history.append((agent_response['input'], agent_response['output']))
 
-          print(cb)
-          st.chat_message("debugger").write(cb)
-          st.session_state.messages.append({"role": "debugger", "content": cb})
+        # st.chat_message("debugger").write(cb)
+        # st.session_state.messages.append({"role": "debugger", "content": cb})
+        st.session_state.chat_history.append((agent_response['input'], agent_response['output']))
 
     response = agent_response['output'].strip()
     msg = {
         "content": response,
         "role": "assistant"
     }
-    
+
     st.session_state.messages.append(msg)
     st.chat_message("assistant").markdown(msg['content'])

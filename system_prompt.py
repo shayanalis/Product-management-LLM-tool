@@ -8,12 +8,15 @@ Try running any question on your mind. The app will try to answer it
 GUIDE_FOR_USERS = '''
 
 
-# Product Management Essentials for Engineers
+# Product Management Essentials for Engineers - Chat GPT tool
 
 ### What the tool can do:
 1. Grade student's work
 2. Answer questions related to Product Management (Just the problem space for now)
 3. It thinks about your question and then gives an answer
+
+### What the tool CANT do:
+1. hold a conversation (this increases)
 '''
 
 def create_system_prompt():
