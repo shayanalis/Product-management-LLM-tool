@@ -42,8 +42,16 @@ import random
 from system_prompt\
   import create_system_prompt, GUIDE_FOR_USERS, TIPS_FOR_USERS, create_agent_react_prompt, get_retrieval_tool_description
 from constants import RETRIEVER_SEARCH_DEPTH, VECTORSTORE_DIRECTORY_NAME, TOP_K_SEARCH_RESULTS, MODEL_NAME
-from my_secrets import OPENAI_API_KEY
+
 from helpers import CustomOutputParser, CustomPromptTemplate
+
+
+OPENAI_API_KEY = None
+if os.path.exists('my_secrets.py'):
+    from my_secrets import OPENAI_API_KEY as OPENAI_API_KEY
+
+OPENAI_API_KEY = OPENAI_API_KEY or st.secrets["OPENAI_API_KEY"]
+
 
 
 with st.sidebar:
@@ -62,6 +70,7 @@ if "openai_api_key" not in st.session_state:
     # else: 
     #   openai_api_key = jim_key
     #   print('Setting key jim')
+
     openai.api_key = OPENAI_API_KEY
     os.environ["OPENAI_API_KEY"] = OPENAI_API_KEY
     st.session_state['openai_api_key'] = OPENAI_API_KEY
