@@ -1,7 +1,6 @@
 import openai
 import streamlit as st
 import os
-import sys
 from langchain.chains import ConversationalRetrievalChain #RetrievalQA
 from langchain.callbacks import get_openai_callback
 from langchain.chat_models import ChatOpenAI
@@ -9,7 +8,6 @@ from langchain.document_loaders import DirectoryLoader, TextLoader
 from langchain.embeddings import OpenAIEmbeddings
 from langchain.indexes import VectorstoreIndexCreator
 from langchain.indexes.vectorstore import VectorStoreIndexWrapper
-from langchain.llms import OpenAI
 from langchain.vectorstores import Chroma
 from langchain.schema import HumanMessage, SystemMessage
 
@@ -17,12 +15,11 @@ import random
 
 from system_prompt\
   import create_system_prompt, GUIDE_FOR_USERS
-from constants import RETRIEVER_SEARCH_DEPTH
+from constants import RETRIEVER_SEARCH_DEPTH, VECTORSTORE_DIRECTORY_NAME
 from my_secrets import OPENAI_API_KEY
-
 MODEL = "gpt-4-1106-preview"
 
-# gpt-4-1106-preview
+print("Make sure you run setup.py with updated source data, and SPRs")
 
 if "openai_api_key" not in st.session_state:
     # random_number = random.random()
@@ -38,21 +35,14 @@ if "openai_api_key" not in st.session_state:
     os.environ["OPENAI_API_KEY"] = OPENAI_API_KEY
     st.session_state['openai_api_key'] = OPENAI_API_KEY
 
-# Enable to save to disk & reuse the model (for repeated queries on the same data)
-PERSIST = True
-
-query = None
-if len(sys.argv) > 1:
-  query = sys.argv[1]
-
-if PERSIST and os.path.exists("persist"):
+if os.path.exists(VECTORSTORE_DIRECTORY_NAME):
   print("loading up vec database..\n")
-  ## added key variable to OpenAIEmbeddings(key=
-  vectorstore = Chroma(persist_directory="persist", embedding_function=OpenAIEmbeddings())
-  index = VectorStoreIndexWrapper(vectorstore=vectorstore)
+  vectorstore = Chroma(persist_directory=VECTORSTORE_DIRECTORY_NAME, embedding_function=OpenAIEmbeddings())
+  loader = DirectoryLoader("source_data/")
+  index = VectorstoreIndexCreator(vectorstore_kwargs={"persist_directory":VECTORSTORE_DIRECTORY_NAME}).from_loaders([loader])
 
 chain = ConversationalRetrievalChain.from_llm(
-  llm= ChatOpenAI(model=MODEL, temperature=0), # OpenAI(temperature=0)
+  llm= ChatOpenAI(model=MODEL, temperature=0),
   retriever=index.vectorstore.as_retriever(
      search_kwargs={"k": RETRIEVER_SEARCH_DEPTH}, 
      search_type='mmr'

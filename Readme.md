@@ -13,27 +13,20 @@ Concepts are ordered to be SPR'ed, which makes a summary of the concepts in a wa
 Read more here: https://github.com/daveshap/SparsePrimingRepresentations/pulse
 
 ## Step 2
-Create the SPRs
-`Run the script CreateSPRs.py`
+Create the SPRs and the vector database
+`Run the script setup.py`
 
 This will update the folder SPRs and remove any existing files.
 Note that SPRs should be created by the LLM for best recall
 Change data folder to influence changes in the SPR files
 
-
-## Step 3:
-
-## running on existing vector database:
-There is already a vector database in the persist folder that can be used to query answers.
-run `streamlit run streamlit.py` and it will open up a page on localhost with the webapp.
+## creates a new vector database:
+setup will run the file `vectorestore.py > create_vectorstore()`
+Persist = False creates a new database from the source data folder
 
 read api documentation:
 https://platform.openai.com/docs/introduction
 
-
-## creating new vector database:
-run the file `create_vectorStore.py`
-Persist = False creates a new database from the source data folder
 
 ## Step 4: Run streamlit.py
 Replace the open ai api keys in both files liquid_text.ipynb and streamlit.py
