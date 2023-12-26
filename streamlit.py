@@ -1,7 +1,6 @@
 import openai
 import streamlit as st
 import os
-from langchain.chains import ConversationalRetrievalChain #RetrievalQA
 from langchain.callbacks import get_openai_callback
 from langchain.chat_models import ChatOpenAI
 from langchain.document_loaders import DirectoryLoader, TextLoader
@@ -11,13 +10,32 @@ from langchain.indexes.vectorstore import VectorStoreIndexWrapper
 from langchain.vectorstores import Chroma
 from langchain.schema import HumanMessage, SystemMessage
 
+
+## for Agent
+import re
+from typing import Union
+from langchain.chains import LLMChain
+from langchain.llms import OpenAI
+from langchain.schema import AgentAction, AgentFinish
+from langchain.utilities import SerpAPIWrapper
+from langchain.chains import ConversationalRetrievalChain, RetrievalQA
+from langchain.agents import (
+    AgentExecutor,
+    AgentOutputParser,
+    LLMSingleActionAgent,
+    Tool,
+)
+from langchain.agents import AgentType, Tool, initialize_agent
+
+
+## helpers
 import random
 
 from system_prompt\
-  import create_system_prompt, GUIDE_FOR_USERS
+  import create_system_prompt, GUIDE_FOR_USERS, create_agent_react_prompt, get_retrieval_tool_description
 from constants import RETRIEVER_SEARCH_DEPTH, VECTORSTORE_DIRECTORY_NAME, TOP_K_SEARCH_RESULTS, MODEL_NAME
 from my_secrets import OPENAI_API_KEY
-
+from helpers import CustomOutputParser, CustomPromptTemplate
 
 
 if "openai_api_key" not in st.session_state:
@@ -58,11 +76,66 @@ if "openai_api_key" not in st.session_state:
 
     st.session_state['chain'] = chain
 
+    llm=ChatOpenAI(model=MODEL_NAME, temperature=0)
 
+    retrieval_chain_tool = RetrievalQA.from_chain_type(
+      llm=llm,
+      chain_type="stuff",
+      retriever=retriever,
+      verbose=True,
+    )
 
+    tools = [
+        Tool(
+            name="Product management course retrieval",
+            func=retrieval_chain_tool.run,
+            description=get_retrieval_tool_description()
+        )
+    ]
 
+    def get_tools(query):
+        # docs = retriever.get_relevant_documents(query)
+        return tools
 
-# print(retriever.invoke('grade the use cases'))
+    template = create_system_prompt() + create_agent_react_prompt()
+
+    # Set up a prompt template
+    prompt = CustomPromptTemplate(
+        template=template,
+        tools_getter=get_tools,
+        # This omits the `agent_scratchpad`, `tools`, and `tool_names` variables because those are generated dynamically
+        # This includes the `intermediate_steps` variable because that is needed
+        input_variables=["input", "intermediate_steps"],
+    )
+
+    agent = initialize_agent(
+        tools, llm, agent=AgentType.ZERO_SHOT_REACT_DESCRIPTION, verbose=True
+    )
+
+    llm_chain = LLMChain(
+        llm=llm, 
+        prompt=prompt,
+        verbose=True
+    )
+
+    output_parser = CustomOutputParser()
+
+    tool_names = [tool.name for tool in tools]
+    agent = LLMSingleActionAgent(
+        llm_chain=llm_chain,
+        output_parser=output_parser,
+        stop=["\nObservation:"],
+        allowed_tools=tool_names,
+    )
+
+    agent_executor = AgentExecutor.from_agent_and_tools(
+        agent=agent, tools=tools, verbose=True
+    )
+    
+    st.session_state['agent_executor'] = agent_executor
+
+# how do we give it a chat history?
+
 
 st.title("Product Management Essentials - Chat GPT tool") 
 
@@ -89,14 +162,14 @@ if prompt := st.chat_input():
     st.chat_message("user").write(prompt)
 
     with get_openai_callback() as cb:
-      result = st.session_state.chain({"question": prompt, "chat_history": st.session_state.chat_history})
-      st.session_state.chat_history.append((result['question'], result['answer']))
+      agent_response = st.session_state.agent_executor({"input": prompt, "chat_history": st.session_state.chat_history})
+      st.session_state.chat_history.append((agent_response['input'], agent_response['output']))
 
       print(cb)
       st.chat_message("debugger").write(cb)
       st.session_state.messages.append({"role": "debugger", "content": cb})
 
-    response = result['answer'].strip()
+    response = agent_response['output'].strip()
     msg = {
         "content": response,
         "role": "assistant"
