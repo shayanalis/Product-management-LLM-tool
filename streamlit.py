@@ -15,9 +15,9 @@ import random
 
 from system_prompt\
   import create_system_prompt, GUIDE_FOR_USERS
-from constants import RETRIEVER_SEARCH_DEPTH, VECTORSTORE_DIRECTORY_NAME
+from constants import RETRIEVER_SEARCH_DEPTH, VECTORSTORE_DIRECTORY_NAME, TOP_K_SEARCH_RESULTS, MODEL_NAME
 from my_secrets import OPENAI_API_KEY
-MODEL = "gpt-4"
+
 
 print("Make sure you run setup.py with updated source data, and SPRs")
 
@@ -36,20 +36,22 @@ if "openai_api_key" not in st.session_state:
     st.session_state['openai_api_key'] = OPENAI_API_KEY
 
 if os.path.exists(VECTORSTORE_DIRECTORY_NAME):
-  # print("loading up vec database..\n")
+  print("loading up vec database..\n")
   vectorstore = Chroma(persist_directory=VECTORSTORE_DIRECTORY_NAME, embedding_function=OpenAIEmbeddings())
-  loader = DirectoryLoader("source_data/")
-  index = VectorstoreIndexCreator(vectorstore_kwargs={"persist_directory":VECTORSTORE_DIRECTORY_NAME}).from_loaders([loader])
+
+retriever=vectorstore.as_retriever(
+     search_kwargs={"k": RETRIEVER_SEARCH_DEPTH, "top_k":TOP_K_SEARCH_RESULTS}, 
+     search_type='mmr'
+    )
 
 chain = ConversationalRetrievalChain.from_llm(
-  llm= ChatOpenAI(model=MODEL, temperature=0),
-  retriever=index.vectorstore.as_retriever(
-     search_kwargs={"k": RETRIEVER_SEARCH_DEPTH}, 
-     search_type='mmr'
-    ),
+  llm= ChatOpenAI(model=MODEL_NAME, temperature=0),
+  retriever=retriever,
   verbose=True,
   # return_intermediate_steps=True
 )
+
+print(retriever.invoke('grade the use cases'))
 
 st.title("Product Management Essentials - Chat GPT tool") 
 

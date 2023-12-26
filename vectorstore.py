@@ -14,6 +14,7 @@ from langchain.vectorstores import Chroma
 # import pdfminer
 # import pdfminer.six
 # print(dir(pdfminer))
+from langchain.text_splitter import CharacterTextSplitter
 
 from my_secrets import OPENAI_API_KEY
 from constants import VECTORSTORE_DIRECTORY_NAME
@@ -27,12 +28,17 @@ def create_vectorstore():
     shutil.rmtree(VECTORSTORE_DIRECTORY_NAME)
 
   print('creating new store')
-  vectorstore = Chroma(persist_directory=VECTORSTORE_DIRECTORY_NAME, embedding_function=OpenAIEmbeddings())
-  index = VectorStoreIndexWrapper(vectorstore=vectorstore)
 
-  loader = DirectoryLoader("source_data/")
-  index = VectorstoreIndexCreator().from_loaders([loader])
+  loader = DirectoryLoader('source_data')
+  documents = loader.load()
+  text_splitter = CharacterTextSplitter(chunk_size=500, chunk_overlap=20)
+  docs = text_splitter.split_documents(documents)
 
-  print('Verifying vector store against: "rubric for jtbd"')
-  for res in index.vectorstore.similarity_search('rubric for jtbd'):
+  embeddings = OpenAIEmbeddings()
+  vectorstore = Chroma.from_documents(
+      docs, embeddings, persist_directory=VECTORSTORE_DIRECTORY_NAME
+  )
+
+  print('Verifying vector store against: "grade the use cases"')
+  for res in vectorstore.similarity_search('grade the use cases'):
     print (res,'\n')
