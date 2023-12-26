@@ -19,9 +19,11 @@ from constants import RETRIEVER_SEARCH_DEPTH, VECTORSTORE_DIRECTORY_NAME, TOP_K_
 from my_secrets import OPENAI_API_KEY
 
 
-print("Make sure you run setup.py with updated source data, and SPRs")
 
 if "openai_api_key" not in st.session_state:
+    
+    print("Make sure you run setup.py with updated source data, and SPRs")
+  
     # random_number = random.random()
     # print(random_number)
     # if random_number <= 1:
@@ -35,11 +37,11 @@ if "openai_api_key" not in st.session_state:
     os.environ["OPENAI_API_KEY"] = OPENAI_API_KEY
     st.session_state['openai_api_key'] = OPENAI_API_KEY
 
-if os.path.exists(VECTORSTORE_DIRECTORY_NAME):
-  print("loading up vec database..\n")
-  vectorstore = Chroma(persist_directory=VECTORSTORE_DIRECTORY_NAME, embedding_function=OpenAIEmbeddings())
+    if os.path.exists(VECTORSTORE_DIRECTORY_NAME):
+      print("loading up vec database..\n")
+      vectorstore = Chroma(persist_directory=VECTORSTORE_DIRECTORY_NAME, embedding_function=OpenAIEmbeddings())
 
-retriever=vectorstore.as_retriever(
+    retriever=vectorstore.as_retriever(
      search_kwargs={"k": RETRIEVER_SEARCH_DEPTH, "top_k":TOP_K_SEARCH_RESULTS}, 
     #  search_type='mmr'
     # use mmr with minimum threshold
@@ -47,12 +49,18 @@ retriever=vectorstore.as_retriever(
     # with mmr it wasn't able to search for the rubric because the first result was desired outcome, and then no rubric in the others
     )
 
-chain = ConversationalRetrievalChain.from_llm(
-  llm= ChatOpenAI(model=MODEL_NAME, temperature=0),
-  retriever=retriever,
-  verbose=True,
-  # return_intermediate_steps=True
-)
+    chain = ConversationalRetrievalChain.from_llm(
+      llm= ChatOpenAI(model=MODEL_NAME, temperature=0),
+      retriever=retriever,
+      verbose=True,
+      # return_intermediate_steps=True
+    )
+
+    st.session_state['chain'] = chain
+
+
+
+
 
 # print(retriever.invoke('grade the use cases'))
 
@@ -81,8 +89,7 @@ if prompt := st.chat_input():
     st.chat_message("user").write(prompt)
 
     with get_openai_callback() as cb:
-      result = chain({"question": prompt, "chat_history": st.session_state.chat_history})
-      # print(result)
+      result = st.session_state.chain({"question": prompt, "chat_history": st.session_state.chat_history})
       st.session_state.chat_history.append((result['question'], result['answer']))
 
       print(cb)
