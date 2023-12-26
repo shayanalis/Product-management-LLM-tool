@@ -29,14 +29,14 @@ Intermediate steps
 
 ## How it works
 
-### There are 4 components to this system:
+#### There are 4 components to this system:
 1. **Openai API**: Used as a large language model (LLM).
 3. **Agent**: Decision maker that has access to tools like Querying a vector database.
 4. **RAG**: Retrieval-augmented generation with a Vector database - Think of this as a database that can do a semantic search.
 5. **SPR**: [Sparse Priming Representations]([url](https://github.com/daveshap/SparsePrimingRepresentations/pulse)) - Think of this as a smart summary of course material that activates the LLM better.
 6. **Streamlit**: the app front-end is made with Streamlit and is hosted on the Streamlit cloud for free (at least until they let us).
 
-### Step by Step process:
+#### Step by Step process:
 **Step 0:** Before a user asks a question the LLM is given a few hundred words of SPR of the course material. The LLM now understands an overview of the course material in a condensed form.
 
 **Step 1:** When a user asks a question, The agent gets the question and uses the LLM to decide whether it can answer the question or if it needs more information. 
