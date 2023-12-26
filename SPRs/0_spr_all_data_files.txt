@@ -1,28 +1,58 @@
-- Product Management Essentials course
-- Simplified concepts for software engineers
-- Jim Berardone, Carnegie Mellon University
-- Fertile land: problem-rich areas
-- Problem spaces: opportunities for solutions
-- As Is vs. To Be states
-- Public transportation, space exploration, online gaming, sporting events, farming, airline travel: fertile land examples
-- Actor: customer class
-- Job To Be Done (JTBD): fundamental task
-- Use Case: specific circumstances for JTBD
-- Actual vs. Desired Outcomes: results gap
-- Problem: outcomes gap
-- Causes: root and contributing
-- Problem Size: amount, severity, frequency
-- Opportunity Size: affected actor count
-- Actor specificity: avoid too general or narrow
-- JTBD rules: functional, singular, accurate, appropriate abstraction
-- Use cases: important, distinct, clearly named, accurate
-- Causes analysis: root, contributing, systematic approach
-- Task, Information, Object Analysis
-- Outcomes: actual vs. desired, quantified
-- Problem definition: outcomes gap
-- Problem Communication: category, statement, narratives
-- Problem Magnitude: size, severity, frequency, probability, growth rate
-- Opportunity Size: affected individual count
-- Grading rubrics: problem space, actor, JTBD, use cases, outcomes
-- Persona names criteria: specific, individual stakeholder, accurate, distinct
-- Essential personas and roles: user, decider, buyer, influencer, gatekeeper, initiator
+- Product Management Essentials course: Carnegie Mellon University, Jim Berardone.
+- Audience: Software engineers learning product management fundamentals.
+- Concept precision: Specific meanings, not colloquial industry use.
+
+Fertile Land:
+- Definition: Problem-rich areas for product opportunities.
+- Domains: Work, life, play.
+- Current state ("As Is") vs. future state ("To Be").
+- Examples: Public transportation, space exploration, online gaming.
+
+Problem Space:
+- Components: Actor, Job To Be Done (JTBD), Use Case, Actual Outcomes, Desired Outcomes, Problem, Causes, Problem Size, Opportunity Size.
+
+Actor:
+- Definition: Customer class using the product.
+- Focus: Individual challenges, not organizations.
+- Balance: Not too general or specific.
+- Examples: Rider, Fan, Ticketholder, Cardholder, Passenger, Driver, Shopper, Merchant.
+
+Job To Be Done (JTBD):
+- Definition: Fundamental task actor wants to complete.
+- Criteria: Functional, singular, accurate, appropriate.
+- Concept: Product as a solution for JTBD.
+- Examples: "Plant crops" (Farmer), "Feed animals" (Animal rearer).
+
+Use Cases:
+- Definition: Specific circumstances for JTBD.
+- Criteria: Important, distinct, clearly named, accurate.
+- Examples: "During extreme weather," "During peak hours," "While riding alone."
+
+Causes:
+- Types: Root Causes, Contributing Causes.
+- Techniques: 5 Whys, Task Analysis, Information Analysis, Object Analysis.
+- Problem-solving: Non-linear, step-by-step analysis.
+
+Outcomes:
+- Types: Actual Outcomes, Desired Outcomes.
+- Components: Metric, quantified measurement, numerical value.
+- Metrics: Duration, effort, speed, quantity, errors, risk, satisfaction.
+
+Problem:
+- Definition: Gap between actual and desired outcomes.
+- Complexity: Multiple actors and outcomes.
+- Discovery: Interviews, observations, surveys, social listening.
+
+Problem Communication:
+- Problem Category: Concise label for problem type.
+- Problem Statement: Clear, factual description including essential elements.
+- Problem Narratives: In-depth stories with real examples.
+
+Problem Magnitude:
+- Components: Amount, Severity, Frequency, Probability, Growth Rate.
+- Annualizing: Standardized comparison basis.
+- Opportunity Size: Number of individuals experiencing the problem.
+
+Personas and Roles:
+- Criteria: Specific name, individual stakeholder, accuracy, distinctiveness.
+- Essential roles: User, Decider, Buyer, Influencer, Gatekeeper, Initiator.

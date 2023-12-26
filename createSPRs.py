@@ -1,3 +1,6 @@
+# https://github.com/daveshap/SparsePrimingRepresentations
+
+
 import os
 import openai
 from openai import OpenAI
@@ -24,7 +27,7 @@ for filename in sorted(os.listdir(directory)):
   if os.path.isfile(file_path):
     content = content + open(file_path).read()
 
-print(content)
+# print(content)
 
 print('')
 print('Sending long form content to LLM...')
@@ -44,7 +47,7 @@ Render the input as a distilled list of succinct statements, assertions, associa
 
 response = client.chat.completions.create(
   model=MODEL_NAME,
-  temperature=0,
+  temperature=0.0,
   messages=[
     {"role": "system", "content":SPR_encoder_prompt},
     {"role": "user", "content": "Can you create an SPR for me?"},
@@ -53,10 +56,16 @@ response = client.chat.completions.create(
   ]
 )
 print('')
-print('Got result from {} overwriting to file:{}'.format(MODEL_NAME,save_to))
 
 compressed = response.choices[0].message.content
 with open(save_to,'w') as file:
     file.write(compressed)
-
+print('')
+print('--------------------------------')
+print(compressed)
+print('--------------------------------')
+print('')
+print('')
+print('overwriting to file:{}'.format(MODEL_NAME,save_to))
+print('')
 print('content length:{}'.format(len(compressed)), 'originally:{}'.format(len(content)),'compressed to:{} %'.format(len(compressed)*100/len(content)))

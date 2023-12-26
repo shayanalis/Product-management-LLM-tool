@@ -18,7 +18,7 @@ import random
 from system_prompt\
   import create_system_prompt, GUIDE_FOR_USERS
 from constants import RETRIEVER_SEARCH_DEPTH
-from my_secrets import OPENAI_API_KEY1
+from my_secrets import OPENAI_API_KEY
 
 MODEL = "gpt-4-1106-preview"
 
@@ -34,9 +34,9 @@ if "openai_api_key" not in st.session_state:
     # else: 
     #   openai_api_key = jim_key
     #   print('Setting key jim')
-    openai.api_key = OPENAI_API_KEY1
-    os.environ["OPENAI_API_KEY"] = OPENAI_API_KEY1
-    st.session_state['openai_api_key'] = OPENAI_API_KEY1
+    openai.api_key = OPENAI_API_KEY
+    os.environ["OPENAI_API_KEY"] = OPENAI_API_KEY
+    st.session_state['openai_api_key'] = OPENAI_API_KEY
 
 # Enable to save to disk & reuse the model (for repeated queries on the same data)
 PERSIST = True
@@ -53,7 +53,10 @@ if PERSIST and os.path.exists("persist"):
 
 chain = ConversationalRetrievalChain.from_llm(
   llm= ChatOpenAI(model=MODEL, temperature=0), # OpenAI(temperature=0)
-  retriever=index.vectorstore.as_retriever(search_kwargs={"k": RETRIEVER_SEARCH_DEPTH},mmr=True),
+  retriever=index.vectorstore.as_retriever(
+     search_kwargs={"k": RETRIEVER_SEARCH_DEPTH}, 
+     search_type='mmr'
+    ),
   verbose=True,
   # return_intermediate_steps=True
 )
@@ -84,7 +87,7 @@ if prompt := st.chat_input():
 
     with get_openai_callback() as cb:
       result = chain({"question": prompt, "chat_history": st.session_state.chat_history})
-      print(result)
+      # print(result)
       st.session_state.chat_history.append((result['question'], result['answer']))
 
       print(cb)
