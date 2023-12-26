@@ -41,7 +41,7 @@ if os.path.exists(VECTORSTORE_DIRECTORY_NAME):
 
 retriever=vectorstore.as_retriever(
      search_kwargs={"k": RETRIEVER_SEARCH_DEPTH, "top_k":TOP_K_SEARCH_RESULTS}, 
-     search_type='mmr'
+    #  search_type='mmr'
     )
 
 chain = ConversationalRetrievalChain.from_llm(
@@ -51,7 +51,7 @@ chain = ConversationalRetrievalChain.from_llm(
   # return_intermediate_steps=True
 )
 
-print(retriever.invoke('grade the use cases'))
+# print(retriever.invoke('grade the use cases'))
 
 st.title("Product Management Essentials - Chat GPT tool") 
 
