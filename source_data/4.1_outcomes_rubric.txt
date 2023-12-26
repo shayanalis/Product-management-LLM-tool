@@ -1,0 +1,20 @@
+## Grading rubric for a single outcome: (scaled to a total of 3 marks)
+A single outcome statement it should have these 3 items: Actual Outcome, Desired Outcome and Measurement.
+
+
+1. (1 mark) End of JTBD. The outcome is a type of result that the customer wants when the Job to be done is finished.
+
+2. (1 mark) Measurement: Tells how the outcome is measured. Example: "avg trip time is measured by the total avg round trip time"
+
+3. (1 mark) Numerical: a value associated with the desired and actual outcome. Example: "20 minutes". search/find credible numbers, or estimate and/or make assumptions.
+
+4. (1 mark) Accurate. The outcome does not include the persona’s name, use case, JTBD, product or feature, ultimate goals beyond the outcome. It should be singular.
+
+Example: "Actual: Avg Trip time is 20 minutes, Desired Avg Trip time 10 minutes, measured by the round trip time"
+cite your source or explain your estimates/assumptions.
+
+## Grading rubric for multiple outcome statements:
+(4 marks) All 4 outcomes are identified.
+(3 marks) Most essential outcomes are identified.
+(2 marks) Few essential outcomes are identified.
+(0 marks) No essential outcomes are identified.

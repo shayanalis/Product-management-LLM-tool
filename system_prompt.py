@@ -4,8 +4,8 @@ from constants import COURSE_SPR_FILENAME
 GUIDE_FOR_USERS = '''
     Hi! I'm here to help you with your course!
     TIPs:
-        - First ask me about certain concepts so I can look them up and load them in my brain
-        - Then ask me questions.
+        - First ask me about certain concepts so I can look them up and load them in my brain. Example:"recall the grading rubrics for outcomes"
+        - Then ask questions "Can you grade the following for me: ..."
 '''
 
 def create_system_prompt():

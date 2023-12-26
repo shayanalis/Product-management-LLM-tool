@@ -40,6 +40,12 @@ def create_sprs():
 
   # METHODOLOGY
   Render the input as a distilled list of succinct statements, assertions, associations, concepts, analogies, and metaphors. The idea is to capture as much, conceptually, as possible but with as few words as possible. Write it in a way that makes sense to you, as the future audience will be another language model, not a human.
+
+  The input you will get is from a Product management course, all the topics are in the sequence that they are taught to the students.
+
+  The distilled output should be roughly 6% of the input length, don't make it too condensed.
+
+  Take a deep breath before writing the SPR
   '''
 
   response = client.chat.completions.create(
@@ -65,4 +71,4 @@ def create_sprs():
   print('')
   print('overwriting to file:{}'.format(MODEL_NAME,save_to))
   print('')
-  print('content length:{}'.format(len(compressed)), 'originally:{}'.format(len(content)),'compressed to:{} %'.format(len(compressed)*100/len(content)))
+  print('content length:{}'.format(len(compressed)), 'originally:{}'.format(len(content)),'compressed to:{} % goal: 6%'.format(int(len(compressed)*100/len(content))))
