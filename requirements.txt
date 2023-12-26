@@ -129,7 +129,6 @@ pandocfilters==1.5.0
 parsedatetime==2.6
 parso==0.8.3
 pdf2image==1.16.3
-pdfminer.six==20201018
 pexpect==4.8.0
 pickleshare==0.7.5
 Pillow==9.5.0

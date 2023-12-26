@@ -17,8 +17,8 @@ from langchain.indexes.vectorstore import VectorStoreIndexWrapper
 from langchain.llms import OpenAI
 from langchain.vectorstores import Chroma
 # import pdfminer
-import pdfminer.high_level
-from pdfminer.high_level import extract_text
+# import pdfminer.high_level
+# from pdfminer.high_level import extract_text
 
 
 # import pdfminer.six

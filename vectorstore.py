@@ -9,11 +9,6 @@ from langchain.indexes import VectorstoreIndexCreator
 from langchain.indexes.vectorstore import VectorStoreIndexWrapper
 from langchain.vectorstores import Chroma
 # from langchain.llms import OpenAI
-# import pdfminer.high_level
-# from pdfminer.high_level import extract_text
-# import pdfminer
-# import pdfminer.six
-# print(dir(pdfminer))
 from langchain.text_splitter import CharacterTextSplitter
 
 from my_secrets import OPENAI_API_KEY
