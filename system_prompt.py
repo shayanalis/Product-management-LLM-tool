@@ -6,8 +6,6 @@ Try running any question on your mind. The app will try to answer it
 '''
 
 GUIDE_FOR_USERS = '''
-
-
 # Product Management Essentials for Engineers - Chat GPT tool
 
 ### What the tool can do:
@@ -16,7 +14,7 @@ GUIDE_FOR_USERS = '''
 3. It thinks about your question and then gives an answer
 
 ### What the tool CANT do:
-1. hold a conversation (this increases)
+1. It can't hold a continued conversation for now.
 '''
 
 def create_system_prompt():
@@ -74,7 +72,6 @@ def create_system_prompt():
     ## Step 4: give an answer
       give a concise explanation, the shorter the better.
 
-
     """
 
     # - Specific subgoals and objectives # Instructions
@@ -98,9 +95,12 @@ def create_system_prompt():
 
 def create_agent_react_prompt():
     return"""
+    When asked to grade, or evaluate, form the question to search for "grading rubrics".
+    When asked to give examples, use the tool to look for definitions of the concepts first.
 
     Answer the following questions as best you can. You have access to the following tools:
 
+    
     {tools}
 
     Use the following format:
@@ -118,9 +118,22 @@ def create_agent_react_prompt():
     {agent_scratchpad}"""
 
 def get_retrieval_tool_description():
-    return "useful for when you need to answer questions about product management, Job to be done, actors,\
-              outcomes, grading and rubrics, problem space, personas, and use cases. Input should be a fully formed\
-                    question, not referencing any obscure pronouns from the conversation before."
+    return """
+    Useful for looking up definitions, concepts, and product management ideas material on
+      Fertile land,
+      Job to be done,
+      actors,
+      outcomes,
+      problem space,
+      Personas,
+      and use cases,
+      grading
+      and rubrics. 
+
+      Not useful for looking up examples or scenarios.
+      Input should be a fully formed question, not referencing any obscure pronouns from the conversation before.
+    """
+
 
 
 # Student_guide = 

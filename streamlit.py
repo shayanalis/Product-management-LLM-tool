@@ -99,7 +99,7 @@ if "openai_api_key" not in st.session_state:
 
     tools = [
         Tool(
-            name="Product management course retrieval",
+            name="Product Management Course Concept Search",
             func=retrieval_chain_tool.run,
             description=get_retrieval_tool_description()
         )
