@@ -1,11 +1,19 @@
 #Using the SPR and other information, creates a system prompt
 from constants import COURSE_SPR_FILENAME
 
+TIPS_FOR_USERS = '''
+Try running any question on your mind. The app will try to answer it
+'''
+
 GUIDE_FOR_USERS = '''
-    Hi! I'm here to help you with your course!
-    TIPs:
-        - First ask me about certain concepts so I can look them up and load them in my brain. Example:"recall the grading rubrics for outcomes"
-        - Then ask questions "Can you grade the following for me: ..."
+
+
+# Product Management Essentials for Engineers
+
+### What the tool can do:
+1. Grade student's work
+2. Answer questions related to Product Management (Just the problem space for now)
+3. It thinks about your question and then gives an answer
 '''
 
 def create_system_prompt():

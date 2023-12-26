@@ -28,15 +28,26 @@ from langchain.agents import (
 from langchain.agents import AgentType, Tool, initialize_agent
 
 
+## for streaming
+from langchain.agents import load_tools
+from langchain.callbacks.streaming_stdout_final_only import (
+    FinalStreamingStdOutCallbackHandler,
+)
+from langchain.callbacks.streamlit import StreamlitCallbackHandler
+
+
 ## helpers
 import random
 
 from system_prompt\
-  import create_system_prompt, GUIDE_FOR_USERS, create_agent_react_prompt, get_retrieval_tool_description
+  import create_system_prompt, GUIDE_FOR_USERS, TIPS_FOR_USERS, create_agent_react_prompt, get_retrieval_tool_description
 from constants import RETRIEVER_SEARCH_DEPTH, VECTORSTORE_DIRECTORY_NAME, TOP_K_SEARCH_RESULTS, MODEL_NAME
 from my_secrets import OPENAI_API_KEY
 from helpers import CustomOutputParser, CustomPromptTemplate
 
+
+with st.sidebar:
+    st.write(GUIDE_FOR_USERS)
 
 if "openai_api_key" not in st.session_state:
     
@@ -75,8 +86,10 @@ if "openai_api_key" not in st.session_state:
     )
 
     st.session_state['chain'] = chain
+    # st_callback = StreamlitCallbackHandler(st.container())
 
-    llm=ChatOpenAI(model=MODEL_NAME, temperature=0)
+    llm=ChatOpenAI(model=MODEL_NAME, temperature=0,
+                   streaming=True)
 
     retrieval_chain_tool = RetrievalQA.from_chain_type(
       llm=llm,
@@ -140,14 +153,15 @@ if "openai_api_key" not in st.session_state:
 st.title("Product Management Essentials - Chat GPT tool") 
 
 if "messages" not in st.session_state:
-    st.session_state["messages"] = [{"role": "assistant", "content": GUIDE_FOR_USERS}]
+    st.session_state["messages"] = [{"role": "assistant", "content": "Hi I'm ready to help!"}]
 
 if "chat_history" not in st.session_state:
     system_prompt = SystemMessage(content=create_system_prompt())
     st.session_state["chat_history"] = [
       system_prompt
     ]
-
+expander = st.expander("Tips")
+expander.write()
 st.write()
 
 for msg in st.session_state.messages:
@@ -162,12 +176,15 @@ if prompt := st.chat_input():
     st.chat_message("user").write(prompt)
 
     with get_openai_callback() as cb:
-      agent_response = st.session_state.agent_executor({"input": prompt, "chat_history": st.session_state.chat_history})
-      st.session_state.chat_history.append((agent_response['input'], agent_response['output']))
+          with st.chat_message("assistant"):
+            st_callback = StreamlitCallbackHandler(st.container())
+            # a1 = answer_prompt(user_input, callbacks=[st_callback], system_instructions="")
+            agent_response = st.session_state.agent_executor({"input": prompt, "chat_history": st.session_state.chat_history}, callbacks = [st_callback])
+            st.session_state.chat_history.append((agent_response['input'], agent_response['output']))
 
-      print(cb)
-      st.chat_message("debugger").write(cb)
-      st.session_state.messages.append({"role": "debugger", "content": cb})
+          print(cb)
+          st.chat_message("debugger").write(cb)
+          st.session_state.messages.append({"role": "debugger", "content": cb})
 
     response = agent_response['output'].strip()
     msg = {
@@ -176,4 +193,4 @@ if prompt := st.chat_input():
     }
     
     st.session_state.messages.append(msg)
-    st.chat_message("assistant").write(msg['content'])
+    st.chat_message("assistant").markdown(msg['content'])
