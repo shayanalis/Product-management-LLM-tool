@@ -17,7 +17,7 @@ from langchain.vectorstores import Chroma
 from langchain.text_splitter import CharacterTextSplitter
 
 from my_secrets import OPENAI_API_KEY
-from constants import VECTORSTORE_DIRECTORY_NAME
+from constants import VECTORSTORE_DIRECTORY_NAME, CHUNK_OVERLAP, CHUNK_SIZE
 
 def create_vectorstore():
 
@@ -31,7 +31,7 @@ def create_vectorstore():
 
   loader = DirectoryLoader('source_data')
   documents = loader.load()
-  text_splitter = CharacterTextSplitter(chunk_size=500, chunk_overlap=20)
+  text_splitter = CharacterTextSplitter(chunk_size=CHUNK_SIZE, chunk_overlap=CHUNK_OVERLAP)
   docs = text_splitter.split_documents(documents)
 
   embeddings = OpenAIEmbeddings()
