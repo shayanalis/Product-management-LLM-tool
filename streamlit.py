@@ -53,6 +53,10 @@ if os.path.exists('my_secrets.py'):
 OPENAI_API_KEY = OPENAI_API_KEY or st.secrets["OPENAI_API_KEY"]
 
 
+st.set_page_config(
+        page_title="Product Management PME",
+        page_icon="💭"
+)
 
 with st.sidebar:
     st.write(GUIDE_FOR_USERS)
