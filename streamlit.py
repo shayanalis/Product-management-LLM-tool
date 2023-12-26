@@ -42,6 +42,9 @@ if os.path.exists(VECTORSTORE_DIRECTORY_NAME):
 retriever=vectorstore.as_retriever(
      search_kwargs={"k": RETRIEVER_SEARCH_DEPTH, "top_k":TOP_K_SEARCH_RESULTS}, 
     #  search_type='mmr'
+    # use mmr with minimum threshold
+    # test against "Help me grade this students outcome: "DEsired outcome: average trip time, Actual outcome decreased trip time" 
+    # with mmr it wasn't able to search for the rubric because the first result was desired outcome, and then no rubric in the others
     )
 
 chain = ConversationalRetrievalChain.from_llm(
