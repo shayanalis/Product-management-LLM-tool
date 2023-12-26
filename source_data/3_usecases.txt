@@ -4,8 +4,7 @@ Use cases
 
 Definition: Use Case: A specific circumstance or set of circumstances in which the actor (customer) does the Job To Be Done. Use cases are specific to each job to be done and each actor.
 
-There are **4 Criteria for making Use Cases:**
-
+There are 4 Criteria for making Use Cases:
 1. **Important.** It should be significant to the actor.
 2. **Distinct.** There are clear, distinctive contextual differences between each use case.
 3. **Clearly named.** It’s specific, unique and unambiguous. (You can put it on a web site.)
@@ -50,14 +49,8 @@ Alternative Terms for use cases can be the following, however, they are not used
 - “Indication” (often in the Pharma industry)
 - “Solution”
 
-## Grading rubric for the Use cases:
-3 marks if All use cases satisfy these criteria:
-2 marks if Most use cases satisfy these criteria:
-1 marks if Few use cases satisfy these criteria:
-0 No use cases satisfy these criteria:
-
 Criteria for Grading rubric for the Use cases:
-1. Clearly named. The name is specific, unique and unambiguous.
-2. Accurate. The name does not include a persona, benefit, outcome or JTBD
-3. Current state. Represents a scenario that exists currently without your product.
-4. Distinct. There are clear, distinctive differences between each use case
+1. (1 mark) Clearly named. The name is specific, unique and unambiguous.
+2. (1 mark) Accurate. The name does not include a persona, benefit, outcome or JTBD
+3. (1 mark) Current state. Represents a scenario that exists currently without your product.
+4. (1 mark) Distinct. There are clear, distinctive differences between each use case

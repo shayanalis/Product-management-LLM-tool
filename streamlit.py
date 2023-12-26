@@ -17,7 +17,7 @@ from system_prompt\
   import create_system_prompt, GUIDE_FOR_USERS
 from constants import RETRIEVER_SEARCH_DEPTH, VECTORSTORE_DIRECTORY_NAME
 from my_secrets import OPENAI_API_KEY
-MODEL = "gpt-4-1106-preview"
+MODEL = "gpt-4"
 
 print("Make sure you run setup.py with updated source data, and SPRs")
 
@@ -36,7 +36,7 @@ if "openai_api_key" not in st.session_state:
     st.session_state['openai_api_key'] = OPENAI_API_KEY
 
 if os.path.exists(VECTORSTORE_DIRECTORY_NAME):
-  print("loading up vec database..\n")
+  # print("loading up vec database..\n")
   vectorstore = Chroma(persist_directory=VECTORSTORE_DIRECTORY_NAME, embedding_function=OpenAIEmbeddings())
   loader = DirectoryLoader("source_data/")
   index = VectorstoreIndexCreator(vectorstore_kwargs={"persist_directory":VECTORSTORE_DIRECTORY_NAME}).from_loaders([loader])
@@ -81,6 +81,8 @@ if prompt := st.chat_input():
       st.session_state.chat_history.append((result['question'], result['answer']))
 
       print(cb)
+      st.chat_message("debugger").write(cb)
+      st.session_state.messages.append({"role": "debugger", "content": cb})
 
     response = result['answer'].strip()
     msg = {
