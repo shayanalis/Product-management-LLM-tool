@@ -1,58 +1,62 @@
-- Product Management Essentials course: Carnegie Mellon University, Jim Berardone.
-- Audience: Software engineers learning product management fundamentals.
-- Concept precision: Specific meanings, not colloquial industry use.
+- Product Management Essentials course by Jim Berardone at Carnegie Mellon University.
+- Target audience: software engineers learning product management fundamentals.
+- Concepts: specific, non-loose definitions compared to industry/internet usage.
 
 Fertile Land:
-- Definition: Problem-rich areas for product opportunities.
-- Domains: Work, life, play.
-- Current state ("As Is") vs. future state ("To Be").
-- Examples: Public transportation, space exploration, online gaming.
+- Definition: problem-rich areas for product/solution development.
+- Purpose: identify familiar problem spaces for students.
+- Scope: domain-agnostic, multiple problem spaces.
+- Current state ("As Is") vs. future state ("To Be") transition through product implementation.
+- Examples: public transportation, space exploration, online gaming, sporting events, farming, airline travel.
 
 Problem Space:
 - Components: Actor, Job To Be Done (JTBD), Use Case, Actual Outcomes, Desired Outcomes, Problem, Causes, Problem Size, Opportunity Size.
 
 Actor:
-- Definition: Customer class using the product.
-- Focus: Individual challenges, not organizations.
-- Balance: Not too general or specific.
-- Examples: Rider, Fan, Ticketholder, Cardholder, Passenger, Driver, Shopper, Merchant.
+- Definition: customer class interacting with future product.
+- Importance: defines problem space, not specific problem.
+- Examples: Rider in public transportation, Fan in sporting events, Ticketholder in music concerts, Cardholder in payment processing.
+- Balance: not too general/specific, avoid geographic specificity.
+- Alternative terms: Customer, Customer Persona, User Persona, Persona, Customer Archetype, User Archetype.
 
 Job To Be Done (JTBD):
-- Definition: Fundamental task actor wants to complete.
-- Criteria: Functional, singular, accurate, appropriate.
-- Concept: Product as a solution for JTBD.
-- Examples: "Plant crops" (Farmer), "Feed animals" (Animal rearer).
+- Definition: fundamental task actor seeks to accomplish.
+- Rules: Functional, Singular, Accurate, Appropriate.
+- Analogy: product as employee hired for a job.
+- Examples: "Plant crops" for Farmer, "Feed animals" for Animal rearer.
 
 Use Cases:
-- Definition: Specific circumstances for JTBD.
-- Criteria: Important, distinct, clearly named, accurate.
-- Examples: "During extreme weather," "During peak hours," "While riding alone."
+- Definition: specific circumstances for actor's JTBD.
+- Criteria: Important, Distinct, Clearly named, Accurate.
+- Examples: "During extreme weather," "During peak hours," "while riding with others" for Rider's JTBD "Be driven to a destination."
+- Contextual prompts: Locations, Environments, Timings, Tools/Objects.
 
 Causes:
 - Types: Root Causes, Contributing Causes.
-- Techniques: 5 Whys, Task Analysis, Information Analysis, Object Analysis.
-- Problem-solving: Non-linear, step-by-step analysis.
+- Techniques: Judgment, 5 Whys, Regression Analysis, Randomized Controlled Trials, Propensity Score Analysis, Causal Inference, Ishikawa Fishbone Diagram, Fault Tree Analysis, Failure Mode Effects Analysis, Pareto Analysis.
 
 Outcomes:
-- Types: Actual Outcomes, Desired Outcomes.
-- Components: Metric, quantified measurement, numerical value.
-- Metrics: Duration, effort, speed, quantity, errors, risk, satisfaction.
+- Definition: bridging gap between actual and desired outcomes through product use.
+- Components: Metric, Quantified Measurement, Numerical Value.
+- Metrics: Duration, Effort, Speed, Quantity, Errors, Risk, Decision quality, etc.
+- Process: customer interviews, surveys, focus groups, social listening, data analysis.
 
 Problem:
-- Definition: Gap between actual and desired outcomes.
-- Complexity: Multiple actors and outcomes.
-- Discovery: Interviews, observations, surveys, social listening.
+- Definition: gap between actual and desired outcomes.
+- Complexity: multiple actors with different outcomes and jobs.
+- Terms: Results, Consequences, Key Results, Achievements, Experiences.
 
 Problem Communication:
-- Problem Category: Concise label for problem type.
-- Problem Statement: Clear, factual description including essential elements.
-- Problem Narratives: In-depth stories with real examples.
+- Problem Category: concise label for problem type.
+- Problem Statement: clear, factual description including essential elements.
+- Problem Narratives: in-depth stories with real examples and personas.
 
 Problem Magnitude:
+- Definition: size and extent of problem.
 - Components: Amount, Severity, Frequency, Probability, Growth Rate.
-- Annualizing: Standardized comparison basis.
-- Opportunity Size: Number of individuals experiencing the problem.
+- Annualizing: standardizing problem size comparison.
+- Opportunity Size: number of individuals experiencing the problem.
 
 Personas and Roles:
-- Criteria: Specific name, individual stakeholder, accuracy, distinctiveness.
+- Criteria: Specific name, Individual stakeholder, Accurate, Distinct.
 - Essential roles: User, Decider, Buyer, Influencer, Gatekeeper, Initiator.

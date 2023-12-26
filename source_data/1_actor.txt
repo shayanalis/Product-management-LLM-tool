@@ -1,6 +1,6 @@
 # 🚀Actor
 
-An actor, in the context of product management and the "Job to be done" framework, represents a specific category of users who will interact with your future product. 
+An actor, in the context of product management and the "Job to be done"(JTBD) framework, represents a specific category of users who will interact with your future product. 
 
 Identifying actors and their associated jobs is crucial for defining the problem space, not the exact problem itself but the broader domain in which a problem exists. It's important to clarify that actors refer to individuals or groups of people, not organizations or physical entities like buildings.
 

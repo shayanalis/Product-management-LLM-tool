@@ -1,20 +1,13 @@
-# 🚀Job to be done
+# 🚀Job to be done(JTBD)
 
 A "Job to be Done" refers to the fundamental task that a customer (or actor) wants to accomplish. It can be an activity or task, and an actor may have multiple jobs to be done.
 
-A job to be done should be:
-Functional 
-Singular 
-Accurate
-Appropriate
-
-A "Job to be Done" is often abbreviated to "JTBD".
 
 A Job to be done it must follow the following rules:
-1. The job to be done must be a task that the customer (actor) is trying to complete.
-2. job to be done should contain only one task. if there are two or more, then it is not a valid job to be done. There should be no compound statements or a mixture of multiple sentences in the job to be done.
-3. job to be done should not include the actor, person, name(s), goals, standards, specific use cases or scenarios, benefits that come from the job, results, outcomes, problems, products or features. Do not use adjectives like faster, quicker, safely, effective, and so on.
-4. job to be done should be an appropriate level of abstraction for the actor and use case, for example, “doing construction work” is too broad of a job to be done for the actor “construction worker”.
+1. Functional: The job to be done must be a task that the customer (actor) is trying to complete.
+2. Singular: job to be done should contain only one task. if there are two or more, then it is not a valid job to be done. There should be no compound statements or a mixture of multiple sentences in the job to be done.
+3. Accurate: job to be done should not include the actor, person, name(s), goals, standards, specific use cases or scenarios, benefits that come from the job, results, outcomes, problems, products or features. Do not use adjectives like faster, quicker, safely, effective, and so on.
+4. Appropriate: job to be done should be an appropriate level of abstraction for the actor and use case, for example, “doing construction work” is too broad of a job to be done for the actor “construction worker”.
 
 In the "Jobs to Be Done" concept, people or actors "hire" or purchase a product to assist them in accomplishing a particular task. This parallels the notion that a product is akin to an employee hired for a specific job within a company. We can better frame and understand the problem space, providing a clear direction for product development.
 
@@ -39,7 +32,7 @@ In the "Jobs to Be Done" concept, people or actors "hire" or purchase a product 
 In the context of college life, students have various "jobs to be done." These tasks include pursuing a master's degree, finding housing, commuting, dining, maintaining their living space, securing employment, traveling, and capturing memories. "Getting an education" is one of the central primary jobs. Tasks like "purchasing textbooks," "grocery shopping," "sleeping," and "exercising" are also jobs but not primary for a college student. Other primary tasks might include "attending classes," finding part-time work, securing internships, and dedicating time to study.
 
 
-## Grading criteria and rubrics for Job to be done statement:
+## Grading criteria and rubrics for Job to be done(jtbd) statement:
 __ 1. (1 mark) Task. It’s a fundamental task the primary user persona is trying to complete in the
 primary use case. It’s functional.
 __ 2. (1 mark) Singular. It is only one singular job.

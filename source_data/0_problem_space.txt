@@ -4,7 +4,7 @@ In this course There are 9 Aspects of a problem space:
 
 Actor: An actor is a representative class of customers (users, buyers) of your product or service.
 
-Job To Be Done: is the fundamental task that the actor (customer) wants to complete.
+Job To Be Done(JTBD): is the fundamental task that the actor (customer) wants to complete.
 
 Use Case: A specific circumstance or set of circumstances in which the actor (Customer) does the Job To Be Done.
 
