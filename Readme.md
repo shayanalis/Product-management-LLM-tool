@@ -1,4 +1,4 @@
-# Product Management Essentials Course Chat GPT Tool
+# Product Management Retrieval Augment Generation System with agents
 This tool is used to help students understand the course material and also product management faster by providing information and quick feedback on concepts and application of the concepts.
 Teaching Assistants can use this tool to grade students' work making and also provide feedback.
 
