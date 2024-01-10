@@ -1,7 +1,5 @@
 # 🚀Use cases
 
-Use cases
-
 Definition: Use Case: A specific circumstance or set of circumstances in which the actor (customer) does the Job To Be Done. Use cases are specific to each job to be done and each actor.
 
 There are 4 Criteria for making Use Cases:
